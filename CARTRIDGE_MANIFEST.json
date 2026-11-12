@@ -1,0 +1,100 @@
+{
+  "package": "zega-synapse-cartridges-v1",
+  "publisher": "APHYGO AB, Helsingborg, Sweden",
+  "contact": "johan.thulin@aphygo.com",
+  "date": "2026-11-12",
+  "included_v1_cartridges": [
+    {
+      "filename": "ministral3_8b_swedish_boost_v1.safetensors",
+      "size_bytes": 984016,
+      "size_kib": 960.95,
+      "file_sha256": "c5bf9f32df2ee3787cdebb92e48ccf486bd467e6c053eefc6d228d41e42d584e",
+      "tensors_sha256": "f1ce543a5fc389bc32995d509e89814743a728230334879e1ba759237c628f05",
+      "metadata": {
+        "training_steps": "0",
+        "format": "aphygo.synapse_cartridge.v1",
+        "added_neurons_total": "40",
+        "target_model": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+        "name": "ministral3-8b-swedish-boost-v1",
+        "license": "Apache-2.0",
+        "language": "sv",
+        "target_layers": "32,33",
+        "base_model": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+        "base_model_revision": "f6fae9795746f63c9be8344932f01275f3c63734",
+        "base_model_license": "Apache-2.0",
+        "copyright": "Copyright 2026 APHYGO AB"
+      }
+    },
+    {
+      "filename": "clip_vit_b32_4row_symmetric_v1.safetensors",
+      "size_bytes": 344880,
+      "size_kib": 336.8,
+      "file_sha256": "a8351af23cadb7989f99d2e4feaed091b00c97b2dc2006903ab3b9a42acf4f53",
+      "tensors_sha256": "0d09d92a92fbd0286523c5563fc9e27fce3daaee52e493e5d90050d84c2f47b4",
+      "metadata": {
+        "base_model": "openai/clip-vit-base-patch32",
+        "added_rows": "56",
+        "format": "aphygo.synapse_cartridge.v1",
+        "family": "Family_II_Standard_MLP",
+        "target_layer": "10",
+        "mode": "4row_symmetric",
+        "license": "MIT",
+        "base_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+        "base_model_license": "MIT",
+        "copyright": "Copyright (c) 2026 APHYGO AB"
+      },
+      "role": "4-Row Fixed-Center Symmetric Quartet (Theorem 3b, Primary)"
+    },
+    {
+      "filename": "clip_vit_b32_2row_stationary_v1.safetensors",
+      "size_bytes": 172736,
+      "size_kib": 168.69,
+      "file_sha256": "af2d307cbb39ea51c8ac7976c961dd4456546cd9e911a3c29b54b6d548335cb3",
+      "tensors_sha256": "1cd5cad13236acbace0738c0c8be7837b72ca907988dfc8d78dc46d2fbb2e820",
+      "metadata": {
+        "target_layer": "10",
+        "mode": "2row_stationary",
+        "base_model": "openai/clip-vit-base-patch32",
+        "format": "aphygo.synapse_cartridge.v1",
+        "family": "Family_II_Standard_MLP",
+        "added_rows": "28",
+        "license": "MIT",
+        "base_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+        "base_model_license": "MIT",
+        "copyright": "Copyright (c) 2026 APHYGO AB"
+      },
+      "role": "2-Row Stationary-Minimum Pair (Theorem 3a, Ablation)"
+    },
+    {
+      "filename": "clip_vit_b32_1row_additive_v1.safetensors",
+      "size_bytes": 86664,
+      "size_kib": 84.63,
+      "file_sha256": "17dc1612c9e1b0c8d36ed52aab2ee244bba947d6e54402628dbf1e6f17d30f81",
+      "tensors_sha256": "728ac8a4c9586ff9ce5d7ed8c88b9f4b5014e3ad45bad4385e10d69a6d87d734",
+      "metadata": {
+        "base_model": "openai/clip-vit-base-patch32",
+        "mode": "1row_additive",
+        "format": "aphygo.synapse_cartridge.v1",
+        "target_layer": "10",
+        "added_rows": "14",
+        "family": "Family_II_Standard_MLP",
+        "license": "MIT",
+        "base_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+        "base_model_license": "MIT",
+        "copyright": "Copyright (c) 2026 APHYGO AB"
+      },
+      "role": "1-Row Unsymmetrized Control (Ablation)"
+    }
+  ],
+  "withheld_from_v1_public_release": [
+    {
+      "component": "Pillar III Juggernaut XL / SDXL Cartridges (sdxl_sapphire_patch_gated_v1.safetensors, sdxl_sapphire_linear_lora_eq_v1.safetensors)",
+      "status": "excluded_from_v1_pending_upstream_hosting_terms_confirmation",
+      "upstream_checkpoint_sha256": "dd08fa32f98d05a2443ca1419e46df1575a0811f6e3b246d9dd47ff20f5eb66a"
+    },
+    {
+      "component": "02_COMPILER (4 compiler source files)",
+      "status": "held_private_at_day1_launch_staged_for_polyform_noncommercial_1_0_0"
+    }
+  ]
+}

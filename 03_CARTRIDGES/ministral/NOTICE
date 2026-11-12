@@ -1,0 +1,10 @@
+ZeGA Synapse Cartridge for Ministral-3-8B-Instruct-2512-BF16 (Swedish Fluency Boost v1)
+Copyright 2026 APHYGO AB (Helsingborg, Sweden — johan.thulin@aphygo.com)
+
+APHYGO AB's cartridge weight contributions in this directory are licensed under the Apache License, Version 2.0.
+
+Upstream Base Model Attribution:
+- Base Model: mistralai/Ministral-3-8B-Instruct-2512-BF16
+- Verified Hugging Face Commit Revision at Compilation: f6fae9795746f63c9be8344932f01275f3c63734
+- Upstream Base Model License: Apache License, Version 2.0 (Mistral AI)
+- Note: No base model weights from Mistral AI are redistributed inside this cartridge file; users obtain the base model separately under Mistral AI's Apache-2.0 terms.

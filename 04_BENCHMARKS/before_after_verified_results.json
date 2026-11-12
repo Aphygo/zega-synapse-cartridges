@@ -1,0 +1,691 @@
+{
+  "cartridge_info": {
+    "cartridge_file": "ministral3_8b_swedish_boost_v1.safetensors",
+    "file_size_kb": 960.77,
+    "target_layers": [
+      32,
+      33
+    ],
+    "added_neurons": 40,
+    "added_parameters": 491520,
+    "attached": true,
+    "metadata": {
+      "target_layers": "32,33",
+      "format": "aphygo.synapse_cartridge.v1",
+      "added_neurons_total": "40",
+      "name": "ministral3-8b-swedish-boost-v1",
+      "license": "Apache-2.0",
+      "language": "sv",
+      "training_steps": "0",
+      "target_model": "mistralai/Ministral-3-8B-Instruct-2512-BF16"
+    },
+    "base_model": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+    "base_parameters": 8918026240,
+    "added_parameters_pct_of_base": 0.005512,
+    "base_weights_untouched_pct": 100.0,
+    "sha256_bit_identical_base_verified": true,
+    "warm_attach_ms": 8.395,
+    "warm_detach_ms": 2.551,
+    "gradient_steps": 0,
+    "system_prompt_tokens": 0
+  },
+  "headline_metrics": {
+    "swedmaster_300": {
+      "before_pct": 73.67,
+      "after_pct": 84.0,
+      "delta_pp": 10.33,
+      "before_ci95": [
+        68.3,
+        78.56
+      ],
+      "after_ci95": [
+        79.35,
+        87.96
+      ],
+      "before_top1_pct": 55.67,
+      "after_top1_pct": 65.0,
+      "mcnemar": {
+        "wins": 37,
+        "losses": 6,
+        "discordant": 43,
+        "p_value": 1.636124125070638e-06
+      }
+    },
+    "scala_sv_1000_official": {
+      "before_pct": 71.3,
+      "after_pct": 75.4,
+      "delta_pp": 4.1,
+      "before_mcc": 0.457,
+      "after_mcc": 0.5108,
+      "delta_mcc": 0.0538,
+      "before_confusion": {
+        "tp": 266,
+        "tn": 447,
+        "fp": 53,
+        "fn": 234
+      },
+      "after_confusion": {
+        "tp": 403,
+        "tn": 351,
+        "fp": 149,
+        "fn": 97
+      },
+      "mcnemar": {
+        "wins": 137,
+        "losses": 96,
+        "discordant": 233,
+        "p_value": 0.008638406577336865
+      }
+    },
+    "dalaj_500_official": {
+      "before_pct": 90.8,
+      "after_pct": 90.0,
+      "delta_pp": -0.8,
+      "mcnemar": {
+        "wins": 3,
+        "losses": 7,
+        "discordant": 10,
+        "p_value": 0.3437499999999998
+      }
+    },
+    "belebele_swe_300_official": {
+      "before_pct": 88.0,
+      "after_pct": 88.0,
+      "delta_pp": 0.0,
+      "mcnemar": {
+        "wins": 0,
+        "losses": 0,
+        "discordant": 0,
+        "p_value": 1.0
+      }
+    },
+    "swed_freegen_60": {
+      "before_clean_pct": 70.0,
+      "after_clean_pct": 95.0,
+      "delta_clean_pp": 25.0,
+      "before_clean_count": 42,
+      "after_clean_count": 57,
+      "before_total_defects": 24,
+      "after_total_defects": 4,
+      "defect_reduction_pct": 83.3,
+      "before_gold_idioms": 40,
+      "after_gold_idioms": 50,
+      "before_by_category": {
+        "translation_biz": {
+          "clean": 9,
+          "total": 15,
+          "pct": 60.0,
+          "defects": 9
+        },
+        "proofread": {
+          "clean": 4,
+          "total": 15,
+          "pct": 26.67,
+          "defects": 14
+        },
+        "native_writing": {
+          "clean": 29,
+          "total": 30,
+          "pct": 96.67,
+          "defects": 1
+        }
+      },
+      "after_by_category": {
+        "translation_biz": {
+          "clean": 15,
+          "total": 15,
+          "pct": 100.0,
+          "defects": 0
+        },
+        "proofread": {
+          "clean": 13,
+          "total": 15,
+          "pct": 86.67,
+          "defects": 3
+        },
+        "native_writing": {
+          "clean": 29,
+          "total": 30,
+          "pct": 96.67,
+          "defects": 1
+        }
+      },
+      "before_defect_histogram": {
+        "gender_utrum_before_neuter": 6,
+        "gender_adj_mismatch": 5,
+        "dir_loc_error": 3,
+        "jargon_deadline": 2,
+        "jargon_stakeholder": 1,
+        "calque_gora_misstag": 1,
+        "jargon_kickoff": 1,
+        "calque_slutet_av_dagen": 1,
+        "calque_gora_mening": 1,
+        "case_prep_de_error": 1,
+        "jargon_feedback": 1,
+        "calque_ta_gora_beslut": 1
+      },
+      "after_defect_histogram": {
+        "calque_slutet_av_dagen": 1,
+        "gender_utrum_before_neuter": 1,
+        "gender_adj_mismatch": 1,
+        "jargon_rnd": 1
+      },
+      "mcnemar": {
+        "wins": 16,
+        "losses": 1,
+        "discordant": 17,
+        "p_value": 0.0002746582031250008
+      }
+    }
+  },
+  "pillar1_categories": {
+    "C1_De_vs_Dem": {
+      "before_pct": 62.0,
+      "after_pct": 88.0,
+      "delta_pp": 26.0,
+      "before_correct": 31,
+      "after_correct": 44,
+      "total": 50,
+      "before_top1_pct": 0.0,
+      "after_top1_pct": 18.0,
+      "before_subs": {
+        "dem_object": {
+          "correct": 6,
+          "total": 25,
+          "pct": 24.0
+        },
+        "de_subject": {
+          "correct": 25,
+          "total": 25,
+          "pct": 100.0
+        }
+      },
+      "after_subs": {
+        "dem_object": {
+          "correct": 19,
+          "total": 25,
+          "pct": 76.0
+        },
+        "de_subject": {
+          "correct": 25,
+          "total": 25,
+          "pct": 100.0
+        }
+      },
+      "mcnemar": {
+        "wins": 13,
+        "losses": 0,
+        "discordant": 13,
+        "p_value": 0.00024414062500000016
+      }
+    },
+    "C2_Direction_vs_Location": {
+      "before_pct": 60.0,
+      "after_pct": 62.0,
+      "delta_pp": 2.0,
+      "before_correct": 30,
+      "after_correct": 31,
+      "total": 50,
+      "before_top1_pct": 58.0,
+      "after_top1_pct": 58.0,
+      "before_subs": {
+        "direction": {
+          "correct": 9,
+          "total": 25,
+          "pct": 36.0
+        },
+        "location": {
+          "correct": 21,
+          "total": 25,
+          "pct": 84.0
+        }
+      },
+      "after_subs": {
+        "direction": {
+          "correct": 10,
+          "total": 25,
+          "pct": 40.0
+        },
+        "location": {
+          "correct": 21,
+          "total": 25,
+          "pct": 84.0
+        }
+      },
+      "mcnemar": {
+        "wins": 2,
+        "losses": 1,
+        "discordant": 3,
+        "p_value": 1.0
+      }
+    },
+    "C3_Gender_Congruence": {
+      "before_pct": 56.0,
+      "after_pct": 68.0,
+      "delta_pp": 12.0,
+      "before_correct": 28,
+      "after_correct": 34,
+      "total": 50,
+      "before_top1_pct": 54.0,
+      "after_top1_pct": 66.0,
+      "before_subs": {
+        "neuter_target": {
+          "correct": 12,
+          "total": 30,
+          "pct": 40.0
+        },
+        "utrum_control": {
+          "correct": 16,
+          "total": 20,
+          "pct": 80.0
+        }
+      },
+      "after_subs": {
+        "neuter_target": {
+          "correct": 21,
+          "total": 30,
+          "pct": 70.0
+        },
+        "utrum_control": {
+          "correct": 13,
+          "total": 20,
+          "pct": 65.0
+        }
+      },
+      "mcnemar": {
+        "wins": 10,
+        "losses": 4,
+        "discordant": 14,
+        "p_value": 0.17956542968750067
+      }
+    },
+    "C4_Idiomatic_Collocations": {
+      "before_pct": 72.0,
+      "after_pct": 88.0,
+      "delta_pp": 16.0,
+      "before_correct": 36,
+      "after_correct": 44,
+      "total": 50,
+      "before_top1_pct": 54.0,
+      "after_top1_pct": 74.0,
+      "before_subs": {
+        "collocation": {
+          "correct": 36,
+          "total": 50,
+          "pct": 72.0
+        }
+      },
+      "after_subs": {
+        "collocation": {
+          "correct": 44,
+          "total": 50,
+          "pct": 88.0
+        }
+      },
+      "mcnemar": {
+        "wins": 8,
+        "losses": 0,
+        "discordant": 8,
+        "p_value": 0.007812500000000002
+      }
+    },
+    "C5_Pure_Swedish_Tech_Business": {
+      "before_pct": 94.0,
+      "after_pct": 100.0,
+      "delta_pp": 6.0,
+      "before_correct": 47,
+      "after_correct": 50,
+      "total": 50,
+      "before_top1_pct": 70.0,
+      "after_top1_pct": 76.0,
+      "before_subs": {
+        "jargon_or_codeswitch": {
+          "correct": 47,
+          "total": 50,
+          "pct": 94.0
+        }
+      },
+      "after_subs": {
+        "jargon_or_codeswitch": {
+          "correct": 50,
+          "total": 50,
+          "pct": 100.0
+        }
+      },
+      "mcnemar": {
+        "wins": 3,
+        "losses": 0,
+        "discordant": 3,
+        "p_value": 0.25000000000000006
+      }
+    },
+    "C6_V2_and_BIFF_Syntax": {
+      "before_pct": 98.0,
+      "after_pct": 98.0,
+      "delta_pp": 0.0,
+      "before_correct": 49,
+      "after_correct": 49,
+      "total": 50,
+      "before_top1_pct": 98.0,
+      "after_top1_pct": 98.0,
+      "before_subs": {
+        "v2_main_clause": {
+          "correct": 25,
+          "total": 25,
+          "pct": 100.0
+        },
+        "biff_subordinate": {
+          "correct": 24,
+          "total": 25,
+          "pct": 96.0
+        }
+      },
+      "after_subs": {
+        "v2_main_clause": {
+          "correct": 24,
+          "total": 25,
+          "pct": 96.0
+        },
+        "biff_subordinate": {
+          "correct": 25,
+          "total": 25,
+          "pct": 100.0
+        }
+      },
+      "mcnemar": {
+        "wins": 1,
+        "losses": 1,
+        "discordant": 2,
+        "p_value": 1.0
+      }
+    }
+  },
+  "symmetric_150_ablation_vs_naive_steering": {
+    "baseline_before_pct": 59.33,
+    "naive_linear_steering_pct": 54.67,
+    "synapse_cartridge_after_pct": 72.67,
+    "naive_details": {
+      "C1_De_vs_Dem": {
+        "accuracy_pct": 50.0,
+        "sub_breakdown": {
+          "dem_object": {
+            "correct": 25,
+            "total": 25,
+            "pct": 100.0
+          },
+          "de_subject": {
+            "correct": 0,
+            "total": 25,
+            "pct": 0.0
+          }
+        }
+      },
+      "C2_Direction_vs_Location": {
+        "accuracy_pct": 50.0,
+        "sub_breakdown": {
+          "direction": {
+            "correct": 21,
+            "total": 25,
+            "pct": 84.0
+          },
+          "location": {
+            "correct": 4,
+            "total": 25,
+            "pct": 16.0
+          }
+        }
+      },
+      "C3_Gender_Congruence": {
+        "accuracy_pct": 64.0,
+        "sub_breakdown": {
+          "neuter_target": {
+            "correct": 29,
+            "total": 30,
+            "pct": 96.67
+          },
+          "utrum_control": {
+            "correct": 3,
+            "total": 20,
+            "pct": 15.0
+          }
+        }
+      }
+    }
+  },
+  "zero_collateral_international": {
+    "anchor_40": {
+      "top1_matches": 40,
+      "total": 40,
+      "regressions": 0,
+      "mean_kl_bf16": 5.659e-05,
+      "max_kl_bf16": 0.00046304
+    },
+    "belebele_eng_200": {
+      "before_pct": 94.0,
+      "after_pct": 94.0
+    },
+    "belebele_fra_200": {
+      "before_pct": 90.0,
+      "after_pct": 90.0
+    },
+    "python_20": {
+      "before_pct": 100.0,
+      "after_pct": 100.0,
+      "before_passed": 20,
+      "after_passed": 20
+    },
+    "math_20": {
+      "before_pct": 35.0,
+      "after_pct": 35.0,
+      "before_passed": 7,
+      "after_passed": 7
+    },
+    "speed_and_memory": {
+      "before_tok_per_s": 9.28,
+      "after_tok_per_s": 8.53,
+      "before_batch_tok_per_s": 39.96,
+      "after_batch_tok_per_s": 41.6,
+      "before_vram_gb": 17.9232,
+      "after_vram_gb": 17.9252
+    }
+  },
+  "showcase_before_after_examples": [
+    {
+      "id": "FG01",
+      "category": "translation_biz",
+      "prompt": "Översätt följande engelska text till naturlig, vårdad svenska (endast själva översättningen):\n'Yesterday, the board met with key stakeholders to take a tough decision. Eventually, they realized that the old workflow did not create any real value for customers, and that the R&D department must take immediate measures.'",
+      "before_reply": "I går träffade styrelsen nyckelstakeholders för att fatta ett svårt beslut. Slutligen insåg de att den gamla arbetsprocessen inte skapade någon egentlig värde för kunder, och att forsknings- och utvecklingsavdelningen måste vidta omedelbara åtgärder.",
+      "before_defects": [
+        "jargon_stakeholder",
+        "gender_utrum_before_neuter",
+        "gender_adj_mismatch"
+      ],
+      "after_reply": "I går möttes styrelsen med centrala intressenter för att fatta ett svårt beslut. Slutligen insåg de att den gamla arbetsprocessen inte skapade något egentligt värde för kunder, och att forsknings- och utvecklingsavdelningen måste vidta omedelbara åtgärder.",
+      "after_defects": [],
+      "after_gold_hits": 4
+    },
+    {
+      "id": "FG04",
+      "category": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'We sent the final report to them yesterday and asked where they are heading next quarter. However, nobody knew where the backup servers were located or whether the proposal provided any concrete support.'",
+      "before_reply": "Vi skickade den slutliga rapporten till dem igår och frågade var de är på väg nästa kvartal. Dock visste ingen var backup-servrarna var belägna eller om förslaget erbjöd någon konkret stöd.",
+      "before_defects": [
+        "gender_utrum_before_neuter"
+      ],
+      "after_reply": "Vi skickade den slutliga rapporten till dem igår och frågade vart de är på väg nästa kvartal. Dock visste ingen var backup-servrarna var belägna eller om förslaget erbjöd något konkret stöd.",
+      "after_defects": [],
+      "after_gold_hits": 2
+    },
+    {
+      "id": "FG06",
+      "category": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Anyone can make a mistake, but management carries a great responsibility when patients do not receive any clear answer. Therefore, the hospital took strong measures to improve patient safety.'",
+      "before_reply": "\"Alla kan göra misstag, men ledningen bär ett stort ansvar när patienter inte får någon klar svar. Därför vidtog sjukhuset kraftfulla åtgärder för att förbättra patientsäkerheten.\"",
+      "before_defects": [
+        "calque_gora_misstag"
+      ],
+      "after_reply": "\"Alla kan begå fel, men ledningen bär ett stort ansvar när patienter inte får något klart svar. Därför vidtog sjukhuset hårda åtgärder för att förbättra patientsäkerheten.\"",
+      "after_defects": [],
+      "after_gold_hits": 3
+    },
+    {
+      "id": "FG08",
+      "category": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'There is no doubt that the reform requires great patience from all stakeholders. Does it really make sense to rush a decision before the deadline when we have no other choice?'",
+      "before_reply": "Det finns ingen tvekan om att reformen kräver stor tålamod från alla berörda parter. Gör det egentligen mening att skynda på beslutet innan deadlinen när vi inte har något annat val?",
+      "before_defects": [
+        "jargon_deadline",
+        "gender_adj_mismatch"
+      ],
+      "after_reply": "Det finns inget tvivel om att reformen kräver stort tålamod från alla berörda parter. Gör det verkligen någon mening att skynda på ett beslut innan tidsfristen när vi inte har något annat val?",
+      "after_defects": [],
+      "after_gold_hits": 1
+    },
+    {
+      "id": "FG09",
+      "category": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Are you staying at home tomorrow or coming home late from Malmö? Let them know early if you cannot attend the kick-off meeting.'",
+      "before_reply": "\"Stannar du hemma imorgon eller kommer du hem sent från Malmö? Meddela i god tid om du inte kan delta på kick-off-mötet.\"",
+      "before_defects": [
+        "jargon_kickoff"
+      ],
+      "after_reply": "\"Stannar du hemma imorgon eller kommer du hem sent från Malmö? Meddela dem i god tid om du inte kan delta i morgondagens startmöte.\"",
+      "after_defects": [],
+      "after_gold_hits": 0
+    },
+    {
+      "id": "FG10",
+      "category": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Compare the budget with the actual outcome for Q3. Although the team had already cut costs, the project still lacked a clear purpose and gave no measurable value.'",
+      "before_reply": "Jämför budgeten med det faktiska utfallet för Q3. Även om teamet redan hade minskat kostnaderna saknades ändå ett tydligt syfte och projektet gav ingen mätbar värde.",
+      "before_defects": [
+        "gender_utrum_before_neuter"
+      ],
+      "after_reply": "Jämför budgeten med det faktiska utfallet för Q3. Även om laget redan hade sänkt kostnaderna saknades ändå ett klart syfte och projektet gav inget mätbart värde.",
+      "after_defects": [],
+      "after_gold_hits": 1
+    },
+    {
+      "id": "FG16",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Igår, styrelsen tog en svår beslut som inte ger någon egentlig värde för de som arbetar här.'",
+      "before_reply": "\"Igår fattade styrelsen ett svårt beslut som inte ger någon egentlig värde för de anställda här.\"",
+      "before_defects": [
+        "gender_utrum_before_neuter",
+        "gender_adj_mismatch"
+      ],
+      "after_reply": "\"Igår fattade styrelsen ett svårt beslut som inte ger något egentligt värde för dem som arbetar här.\"",
+      "after_defects": [],
+      "after_gold_hits": 3
+    },
+    {
+      "id": "FG18",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Ingen visste var tåget var på väg eftersom konduktören hade inte informerat de.'",
+      "before_reply": "Ingen visste var tåget var på väg eftersom konduktören inte hade informerat dem.",
+      "before_defects": [
+        "dir_loc_error"
+      ],
+      "after_reply": "Ingen visste vart tåget var på väg eftersom konduktören inte hade informerat dem.",
+      "after_defects": [],
+      "after_gold_hits": 0
+    },
+    {
+      "id": "FG20",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Vi spenderade hela helgen hem med familjen och pratade länge med de om var vi ska flytta i höst.'",
+      "before_reply": "Vi tillbringade hela helgen hemma med familjen och pratade länge med dem om var vi ska flytta på hösten.",
+      "before_defects": [
+        "dir_loc_error"
+      ],
+      "after_reply": "Vi tillbringade hela helgen hemma med familjen och pratade länge med dem om vart vi ska flytta på hösten.",
+      "after_defects": [],
+      "after_gold_hits": 2
+    },
+    {
+      "id": "FG21",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Vår R&D-avdelning presenterade tre key takeaways för alla nyckelstakeholders innan deadline.'",
+      "before_reply": "Vår forsknings- och utvecklingsavdelning presenterade tre viktiga slutsatser för alla nyckelaktörer innan deadlinen.",
+      "before_defects": [
+        "jargon_deadline"
+      ],
+      "after_reply": "Vår forsknings- och utvecklingsavdelning presenterade tre viktigaste slutsatser för alla intressenter före tidsgränsen.",
+      "after_defects": [],
+      "after_gold_hits": 1
+    },
+    {
+      "id": "FG22",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Det råder ingen tvivel om att båda företagen gjorde ett bindande avtal som ger stor stöd.'",
+      "before_reply": "Det råder ingen tvivel om att båda företagen ingick ett bindande avtal som ger stort stöd.",
+      "before_defects": [
+        "gender_utrum_before_neuter"
+      ],
+      "after_reply": "Det råder inget tvivel om att båda företagen ingick ett bindande avtal som ger stort stöd.",
+      "after_defects": [],
+      "after_gold_hits": 2
+    },
+    {
+      "id": "FG24",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Hon frågade var jag ska resa i sommar och om jag kommer stanna hem under julen.'",
+      "before_reply": "Hon frågade var jag ska resa på sommaren och om jag kommer stanna hemma under julen.",
+      "before_defects": [
+        "dir_loc_error"
+      ],
+      "after_reply": "Hon frågade vart jag ska resa denna sommar och om jag kommer stanna hemma under julen.",
+      "after_defects": [],
+      "after_gold_hits": 0
+    },
+    {
+      "id": "FG25",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Den här förklaringen gör mening om man jämför prognosen med den aktuella utfallet.'",
+      "before_reply": "Den här förklaringen gör mening om man jämför prognosen med det aktuella utfallet.",
+      "before_defects": [
+        "calque_gora_mening"
+      ],
+      "after_reply": "Den här förklaringen får mer **mening** om man jämför prognosen med det **aktuella utfallet**.",
+      "after_defects": [],
+      "after_gold_hits": 0
+    },
+    {
+      "id": "FG26",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Bland de som deltog fanns stor tålamod, och vd:n tackade de varmt.'",
+      "before_reply": "Bland de som deltog fanns stor tålamod, och **VD:n** tackade dem varmt.",
+      "before_defects": [
+        "gender_adj_mismatch",
+        "case_prep_de_error"
+      ],
+      "after_reply": "Bland dem som deltog fanns stort tålamod, och vd:n tackade dem varmt.",
+      "after_defects": [],
+      "after_gold_hits": 2
+    },
+    {
+      "id": "FG27",
+      "category": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'En smidig onboarding och bra feedback hjälper nyanställda i deras dagliga workflow.'",
+      "before_reply": "En smidig **omvandling** och bra feedback hjälper nyanställda i **deras** dagliga arbetsflöde.",
+      "before_defects": [
+        "jargon_feedback"
+      ],
+      "after_reply": "En smidig **omvandling** och bra återkoppling hjälper nya anställda i deras dagliga arbetsflöde.",
+      "after_defects": [],
+      "after_gold_hits": 2
+    },
+    {
+      "id": "FG41",
+      "category": "native_writing",
+      "prompt": "Skriv fyra meningar på vårdad svenska om varför en myndighet ibland måste fatta snabba beslut under en kris trots att man ännu inte har något fullständigt beslutsunderlag.",
+      "before_reply": "1. Under en kris kan en myndighet behöva agera snabbt för att skydda människors liv, hälsa eller egendom, då varje fördröjning kan förvärra situationen och leda till större skador eller risker.\n\n2. Brist på fullständigt beslutsunderlag är ofta en följd av att kriser utvecklas snabbt och oförutsägbart, vilket gör att myndigheter måste ta beslut baserat på tillgänglig information och expertis för att kunna hantera akuta hot.\n\n3. Genom att fatta tidiga beslut kan myndigheter också förebygga panik och",
+      "before_defects": [
+        "calque_ta_gora_beslut"
+      ],
+      "after_reply": "1. Under en kris kan tidspressen vara så stor att en myndighet inte har möjlighet att vänta på fullständiga uppgifter eller analyser, eftersom varje fördröjning kan förvärra situationen och leda till större samhällsskador.\n\n2. Beslutsfattande baserat på delvis underlag är ofta bättre än att inte agera alls, då en snabb reaktion kan rädda liv, minska ekonomiska förluster eller stabilisera en akut situation.\n\n3. Myndigheter måste balansera mellan att agera med den information de har och att samtidigt arbeta paralle",
+      "after_defects": [],
+      "after_gold_hits": 0
+    }
+  ]
+}

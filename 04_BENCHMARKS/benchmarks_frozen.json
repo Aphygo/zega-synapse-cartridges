@@ -1,0 +1,4620 @@
+{
+  "metadata": {
+    "benchmark_name": "SwedBoost-Ministral3-8B-Evaluation-Suite-v1",
+    "target_model": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+    "epistemic_hygiene": "100% deterministic, zero LLM-as-a-Judge, 0% calibration overlap enforced programmatically"
+  },
+  "pillar1_swedmaster_300": {
+    "C1_De_vs_Dem": [
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vi skickade hela årsredovisningen direkt till",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Efter seminariet diskuterade föreläsaren länge med",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Styrelsen valde att ge ett nytt uppdrag åt",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "När delegationen landade på Arlanda mötte vi",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Det uppstod en livlig debatt mellan oss och",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Projektledaren tackade var och en av",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Utan stöd från",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Bland alla sökande valde rekryteraren ut tre av",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vi har stort förtroende för",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Domstolen riktade skarp kritik mot",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Läraren delade ut kompendiet till samtliga av",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Ingen av oss hade hört talas om",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Kommunen erbjöd tillfälligt boende åt",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Förslaget kommer att påverka",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vi bad receptionisten att ringa upp",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Enligt en talesperson för",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Polisen kunde snabbt identifiera flera av",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Skillnaden mellan oss och",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Chefen lovade att informera",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vi samarbetade tätt tillsammans med",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Beslutet blev en stor besvikelse för",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Revisorn granskade underlagen som kom från",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Läkarna gjorde allt som stod i deras makt för att rädda",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Konferensen riktar sig särskilt till",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "dem_object",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vi överlämnade nycklarna personligen till",
+        "good": [
+          " dem"
+        ],
+        "bad": [
+          " de"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Efter den långa förhandlingen nådde",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Trots det kraftiga snöfallet kom",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "I årsrapporten redovisar",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "När larmet gick utrymde",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Under det senaste kvartalet ökade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Eftersom tidsfristen var kort arbetade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vid styrelsemötet i måndags röstade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Redan på morgonen märkte",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Hon frågade om",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Vi visste inte att",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Så snart avtalet var klart började",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "På presskonferensen förklarade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Fastän budgeten var stram lyckades",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Nästa månad planerar",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "I början av projektet trodde",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Utan extra resurser kunde",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Dagen efter beskedet valde",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Genom ny teknik minskade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Innan kontoret stängde låste",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Med gemensamma krafter löste",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Enligt protokollet reserverade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Till slut insåg",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Under våren lanserade",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Varje fredag samlas",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "de_subject",
+        "user": "Skriv korrekt vårdad skriftsvenska:",
+        "asst_prefix": "Efter noggrann prövning godkände",
+        "good": [
+          " de"
+        ],
+        "bad": [
+          " dem"
+        ],
+        "chat": true
+      }
+    ],
+    "C2_Direction_vs_Location": [
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where is the express train heading?'",
+        "asst_prefix": "Vet någon",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where did all the customers go?'",
+        "asst_prefix": "Butikschefen undrade",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where are you travelling this summer?'",
+        "asst_prefix": "Har ni bestämt",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where did the family move in August?'",
+        "asst_prefix": "Grannarna frågade",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where does this narrow road lead?'",
+        "asst_prefix": "Ingen på kartan såg",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where should we send the signed invoice?'",
+        "asst_prefix": "Kan du ange",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where is European industry heading now?'",
+        "asst_prefix": "Analytikerna diskuterar",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where did the witness disappear?'",
+        "asst_prefix": "Utredarna förstod inte",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where did she drive after the meeting?'",
+        "asst_prefix": "Kollegan visste inte",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where are the birds flying in October?'",
+        "asst_prefix": "Barnen frågade",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'When are you coming home from Gothenburg?'",
+        "asst_prefix": "När åker du",
+        "good": [
+          " hem"
+        ],
+        "bad": [
+          " hemma"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'She went straight home after the shift.'",
+        "asst_prefix": "Hon gick raka vägen",
+        "good": [
+          " hem"
+        ],
+        "bad": [
+          " hemma"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'We must bring the equipment home today.'",
+        "asst_prefix": "Vi måste ta med utrustningen",
+        "good": [
+          " hem"
+        ],
+        "bad": [
+          " hemma"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'The dog ran home through the forest.'",
+        "asst_prefix": "Hunden sprang",
+        "good": [
+          " hem"
+        ],
+        "bad": [
+          " hemma"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Come here as soon as you have time.'",
+        "asst_prefix": "Kom",
+        "good": [
+          " hit"
+        ],
+        "bad": [
+          " här"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'When did the new consultant arrive here?'",
+        "asst_prefix": "När flyttade den nya konsulten",
+        "good": [
+          " hit"
+        ],
+        "bad": [
+          " här"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'We invited several international speakers here.'",
+        "asst_prefix": "Vi bjöd in flera utländska talare",
+        "good": [
+          " hit"
+        ],
+        "bad": [
+          " här"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'How do I get there by bus?'",
+        "asst_prefix": "Hur tar jag mig enklast",
+        "good": [
+          " dit"
+        ],
+        "bad": [
+          " där"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'We drove there early on Saturday morning.'",
+        "asst_prefix": "Vi körde",
+        "good": [
+          " dit"
+        ],
+        "bad": [
+          " där"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Step out onto the balcony for fresh air.'",
+        "asst_prefix": "Kliv",
+        "good": [
+          " ut"
+        ],
+        "bad": [
+          " ute"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'The crew sailed out at dawn.'",
+        "asst_prefix": "Besättningen seglade",
+        "good": [
+          " ut"
+        ],
+        "bad": [
+          " ute"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'She walked into the conference room.'",
+        "asst_prefix": "Hon klev",
+        "good": [
+          " in"
+        ],
+        "bad": [
+          " inne"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Please bring the boxes inside before it rains.'",
+        "asst_prefix": "Bär gärna",
+        "good": [
+          " in"
+        ],
+        "bad": [
+          " inne"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where did the capital flow during the quarter?'",
+        "asst_prefix": "Rapporten visar",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "direction",
+        "user": "Översätt till korrekt svenska: 'Where are we going after dinner?'",
+        "asst_prefix": "Har du tänkt på",
+        "good": [
+          " vart"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where is the nearest pharmacy located?'",
+        "asst_prefix": "Vet du",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where did you park the rental car?'",
+        "asst_prefix": "Minns du",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where do most software engineers work?'",
+        "asst_prefix": "Undersökningen visar",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where was the historic treaty signed?'",
+        "asst_prefix": "Historikern förklarade",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where are the backup servers stored?'",
+        "asst_prefix": "Säkerhetschefen frågade",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where did she grow up in Norrland?'",
+        "asst_prefix": "Artikeln beskriver",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where does the error occur in the pipeline?'",
+        "asst_prefix": "Loggarna avslöjar exakt",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where can we find reliable statistics?'",
+        "asst_prefix": "Forskaren visade",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where did they stay during the summit?'",
+        "asst_prefix": "Journalisten undrade",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where is the serial number printed?'",
+        "asst_prefix": "Manualen visar",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'I am working from home on Wednesday.'",
+        "asst_prefix": "På onsdag arbetar jag",
+        "good": [
+          " hemma"
+        ],
+        "bad": [
+          " hem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Were they at home when the storm hit?'",
+        "asst_prefix": "Var hela familjen",
+        "good": [
+          " hemma"
+        ],
+        "bad": [
+          " hem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'He forgot his charger at home.'",
+        "asst_prefix": "Han glömde laddaren",
+        "good": [
+          " hemma"
+        ],
+        "bad": [
+          " hem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'We stayed at home all weekend.'",
+        "asst_prefix": "Vi stannade",
+        "good": [
+          " hemma"
+        ],
+        "bad": [
+          " hem"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'We have had our headquarters here since 2018.'",
+        "asst_prefix": "Vi har haft vårt huvudkontor",
+        "good": [
+          " här"
+        ],
+        "bad": [
+          " hit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Nobody works here on Sundays.'",
+        "asst_prefix": "Ingen arbetar",
+        "good": [
+          " här"
+        ],
+        "bad": [
+          " hit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Is there a charging station here?'",
+        "asst_prefix": "Finns det någon laddstation",
+        "good": [
+          " här"
+        ],
+        "bad": [
+          " hit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'She lived there for almost five years.'",
+        "asst_prefix": "Hon bodde",
+        "good": [
+          " där"
+        ],
+        "bad": [
+          " dit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'The atmosphere was calm there.'",
+        "asst_prefix": "Stämningen var mycket lugn",
+        "good": [
+          " där"
+        ],
+        "bad": [
+          " dit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'The guests sat outside in the garden.'",
+        "asst_prefix": "Gästerna satt",
+        "good": [
+          " ute"
+        ],
+        "bad": [
+          " ut"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'It is minus twelve degrees outside tonight.'",
+        "asst_prefix": "Det är tolv minusgrader",
+        "good": [
+          " ute"
+        ],
+        "bad": [
+          " ut"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Everyone waited inside the terminal.'",
+        "asst_prefix": "Alla passagerare väntade",
+        "good": [
+          " inne"
+        ],
+        "bad": [
+          " in"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'It was warm and quiet inside the cabin.'",
+        "asst_prefix": "Det var varmt och tyst",
+        "good": [
+          " inne"
+        ],
+        "bad": [
+          " in"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where is the flaw in this argument?'",
+        "asst_prefix": "Det är lätt att se",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "location",
+        "user": "Översätt till korrekt svenska: 'Where do you usually eat lunch?'",
+        "asst_prefix": "Kan du tipsa om",
+        "good": [
+          " var"
+        ],
+        "bad": [
+          " vart"
+        ],
+        "chat": true
+      }
+    ],
+    "C3_Gender_Congruence": [
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'That workflow does not create any real value.'",
+        "asst_prefix": "Arbetsflödet skapar inte",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'Did the committee present any concrete proposal?'",
+        "asst_prefix": "Presenterade kommittén",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'We did not discover any critical error in the module.'",
+        "asst_prefix": "Vi upptäckte inte",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'Did she receive any useful advice before the interview?'",
+        "asst_prefix": "Fick hon",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'There is no doubt about the conclusion.'",
+        "asst_prefix": "Det råder",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The municipality had no other choice.'",
+        "asst_prefix": "Kommunen hade",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'They found no clear pattern in the measurements.'",
+        "asst_prefix": "De hittade",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'There was no formal requirement in the law.'",
+        "asst_prefix": "Det fanns",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'We saw no genuine interest from the buyer.'",
+        "asst_prefix": "Vi märkte",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The minister gave no binding promise.'",
+        "asst_prefix": "Ministern gav",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'Negotiating requires great patience.'",
+        "asst_prefix": "Förhandlingen kräver",
+        "good": [
+          " stort",
+          " ett"
+        ],
+        "bad": [
+          " stor",
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'Every team leader carries a heavy responsibility.'",
+        "asst_prefix": "Varje gruppledare bär",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The customers paid a very high price.'",
+        "asst_prefix": "Kunderna betalade",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The agency received strong support from parliament.'",
+        "asst_prefix": "Myndigheten fick",
+        "good": [
+          " ett",
+          " starkt"
+        ],
+        "bad": [
+          " en",
+          " stark"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'That was an unnecessary mistake by management.'",
+        "asst_prefix": "Det var",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The court imposed a severe punishment.'",
+        "asst_prefix": "Domstolen utdömde",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The sensor detected a sudden noise.'",
+        "asst_prefix": "Sensorn registrerade",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'We need a completely new perspective on energy.'",
+        "asst_prefix": "Vi behöver",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'They signed a five-year contract in Stockholm.'",
+        "asst_prefix": "De undertecknade",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The audit revealed a serious problem.'",
+        "asst_prefix": "Granskningen avslöjade",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'Is there any vacant room at the hotel?'",
+        "asst_prefix": "Finns det",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'Did the clinic offer any financial support?'",
+        "asst_prefix": "Erbjöd kliniken",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'He never showed any deeper commitment.'",
+        "asst_prefix": "Han visade aldrig",
+        "good": [
+          " något"
+        ],
+        "bad": [
+          " någon"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The battery showed no sign of damage.'",
+        "asst_prefix": "Batteriet visade",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'We have no official answer yet.'",
+        "asst_prefix": "Vi har",
+        "good": [
+          " inget"
+        ],
+        "bad": [
+          " ingen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The project lacked a clear purpose.'",
+        "asst_prefix": "Projektet saknade",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The startup received a generous grant.'",
+        "asst_prefix": "Bolaget beviljades",
+        "good": [
+          " ett"
+        ],
+        "bad": [
+          " en"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The value of the export is remarkably high.'",
+        "asst_prefix": "Värdet på exporten är anmärkningsvärt",
+        "good": [
+          " högt",
+          " stort"
+        ],
+        "bad": [
+          " hög",
+          " stor"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The company's responsibility is very broad.'",
+        "asst_prefix": "Företagets ansvar är mycket",
+        "good": [
+          " stort",
+          " brett"
+        ],
+        "bad": [
+          " stor",
+          " bred"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "neuter_target",
+        "user": "Översätt till svenska: 'The public support for the reform remained strong.'",
+        "asst_prefix": "Det folkliga stödet för reformen förblev",
+        "good": [
+          " starkt",
+          " stort"
+        ],
+        "bad": [
+          " stark",
+          " stor"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'That change does not create any real benefit.'",
+        "asst_prefix": "Förändringen skapar inte",
+        "good": [
+          " någon"
+        ],
+        "bad": [
+          " något"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'Did the auditor find any significant risk?'",
+        "asst_prefix": "Hittade revisorn",
+        "good": [
+          " någon"
+        ],
+        "bad": [
+          " något"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'We saw no noticeable effect after the update.'",
+        "asst_prefix": "Vi såg",
+        "good": [
+          " ingen"
+        ],
+        "bad": [
+          " inget"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'There is no simple solution to the crisis.'",
+        "asst_prefix": "Det finns",
+        "good": [
+          " ingen"
+        ],
+        "bad": [
+          " inget"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The board presented a completely new strategy.'",
+        "asst_prefix": "Styrelsen presenterade",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The hospital faces a difficult challenge.'",
+        "asst_prefix": "Sjukhuset står inför",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'She played a decisive role in the negotiation.'",
+        "asst_prefix": "Hon spelade",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The team came up with a brilliant idea.'",
+        "asst_prefix": "Gruppen kläckte",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'We noticed a clear difference in quality.'",
+        "asst_prefix": "Vi märkte",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The bank reported a record profit.'",
+        "asst_prefix": "Banken redovisade",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'They had no realistic opportunity to appeal.'",
+        "asst_prefix": "De hade",
+        "good": [
+          " ingen"
+        ],
+        "bad": [
+          " inget"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'Did any journalist ask a follow-up question?'",
+        "asst_prefix": "Ställde journalisten",
+        "good": [
+          " någon"
+        ],
+        "bad": [
+          " något"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The municipality launched a digital service.'",
+        "asst_prefix": "Kommunen lanserade",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'It requires a high level of security.'",
+        "asst_prefix": "Det kräver",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The new legislation had a positive impact.'",
+        "asst_prefix": "Den nya lagen fick",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'We observed no shortage of spare parts.'",
+        "asst_prefix": "Vi noterade",
+        "good": [
+          " ingen"
+        ],
+        "bad": [
+          " inget"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The cost of the repair became unexpectedly high.'",
+        "asst_prefix": "Kostnaden för reparationen blev oväntat",
+        "good": [
+          " hög",
+          " stor"
+        ],
+        "bad": [
+          " högt",
+          " stort"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The risk of downtime is relatively small.'",
+        "asst_prefix": "Risken för driftstopp är relativt",
+        "good": [
+          " liten",
+          " låg"
+        ],
+        "bad": [
+          " litet",
+          " lågt"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The shortage of engineers remains severe.'",
+        "asst_prefix": "Bristen på ingenjörer är fortfarande",
+        "good": [
+          " stor",
+          " allvarlig"
+        ],
+        "bad": [
+          " stort",
+          " allvarligt"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "utrum_control",
+        "user": "Översätt till svenska: 'The market received a clear signal from the central bank.'",
+        "asst_prefix": "Marknaden fick",
+        "good": [
+          " en"
+        ],
+        "bad": [
+          " ett"
+        ],
+        "chat": true
+      }
+    ],
+    "C4_Idiomatic_Collocations": [
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Management must make a final decision before Friday.'",
+        "asst_prefix": "Ledningen måste",
+        "good": [
+          " fatta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Who took the decision to close the branch?'",
+        "asst_prefix": "Vem var det som",
+        "good": [
+          " fattade"
+        ],
+        "bad": [
+          " tog",
+          " gjorde"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Voters will make an important decision in September.'",
+        "asst_prefix": "Väljarna ska",
+        "good": [
+          " fatta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Have you made a decision about the offer yet?'",
+        "asst_prefix": "Har ni hunnit",
+        "good": [
+          " fatta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The court made a unanimous decision.'",
+        "asst_prefix": "Domstolen",
+        "good": [
+          " fattade"
+        ],
+        "bad": [
+          " tog",
+          " gjorde"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'It is difficult to make quick decisions under stress.'",
+        "asst_prefix": "Under tidspress är det svårt att",
+        "good": [
+          " fatta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The agency must take strict measures immediately.'",
+        "asst_prefix": "Myndigheten måste omedelbart",
+        "good": [
+          " vidta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The school took Concrete measures against bullying.'",
+        "asst_prefix": "Skolan",
+        "good": [
+          " vidtog"
+        ],
+        "bad": [
+          " tog",
+          " gjorde"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'If temperatures rise, we will take preventive measures.'",
+        "asst_prefix": "Om temperaturen stiger kommer vi att",
+        "good": [
+          " vidta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Which measures have been taken so far?'",
+        "asst_prefix": "Vilka åtgärder har hittills",
+        "good": [
+          " vidtagits"
+        ],
+        "bad": [
+          " tagits",
+          " gjorts"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The company failed to take adequate security measures.'",
+        "asst_prefix": "Bolaget underlät att",
+        "good": [
+          " vidta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Inspectors demanded that the factory take corrective measures.'",
+        "asst_prefix": "Inspektörerna krävde att fabriken skulle",
+        "good": [
+          " vidta"
+        ],
+        "bad": [
+          " ta",
+          " göra"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Even experienced pilots can make a serious mistake.'",
+        "asst_prefix": "Även erfarna piloter kan",
+        "good": [
+          " begå"
+        ],
+        "bad": [
+          " göra",
+          " ta"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'We must ensure we never make the same mistake twice.'",
+        "asst_prefix": "Vi måste se till att aldrig",
+        "good": [
+          " begå"
+        ],
+        "bad": [
+          " göra",
+          " ta"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The suspect denied having committed any crime.'",
+        "asst_prefix": "Den misstänkte nekade till att ha",
+        "good": [
+          " begått"
+        ],
+        "bad": [
+          " gjort",
+          " tagit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Looking back, the board made a costly mistake.'",
+        "asst_prefix": "I efterhand stod det klart att styrelsen hade",
+        "good": [
+          " begått"
+        ],
+        "bad": [
+          " gjort",
+          " tagit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'It would be a grave mistake to ignore the warning.'",
+        "asst_prefix": "Att ignorera varningen vore att",
+        "good": [
+          " begå"
+        ],
+        "bad": [
+          " göra",
+          " ta"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Sweden entered into a new trade agreement.'",
+        "asst_prefix": "Sverige",
+        "good": [
+          " ingick",
+          " slöt"
+        ],
+        "bad": [
+          " gjorde",
+          " tog"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Minors cannot enter into binding contracts alone.'",
+        "asst_prefix": "Minderåriga får inte på egen hand",
+        "good": [
+          " ingå",
+          " sluta"
+        ],
+        "bad": [
+          " göra",
+          " ta"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The two suppliers made a long-term agreement.'",
+        "asst_prefix": "De båda leverantörerna",
+        "good": [
+          " ingick",
+          " slöt"
+        ],
+        "bad": [
+          " gjorde",
+          " tog"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Before you enter into a lease agreement, read the terms.'",
+        "asst_prefix": "Innan du väljer att",
+        "good": [
+          " ingå",
+          " teckna"
+        ],
+        "bad": [
+          " göra",
+          " ta"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Both unions entered into a collective agreement.'",
+        "asst_prefix": "Båda förbunden",
+        "good": [
+          " ingick",
+          " tecknade",
+          " slöt"
+        ],
+        "bad": [
+          " gjorde",
+          " tog"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The Nobel banquet takes place in Stockholm City Hall.'",
+        "asst_prefix": "Nobelbanketten",
+        "good": [
+          " äger",
+          " hålls"
+        ],
+        "bad": [
+          " tar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The trial will take place in October.'",
+        "asst_prefix": "Rättegången kommer att",
+        "good": [
+          " äga",
+          " hållas"
+        ],
+        "bad": [
+          " ta"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Where did the secret negotiations take place?'",
+        "asst_prefix": "Var någonstans",
+        "good": [
+          " ägde"
+        ],
+        "bad": [
+          " tog"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Major changes have taken place in healthcare.'",
+        "asst_prefix": "Stora förändringar har",
+        "good": [
+          " ägt",
+          " skett"
+        ],
+        "bad": [
+          " tagit"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The annual festival takes place on Gotland.'",
+        "asst_prefix": "Den årliga festivalen",
+        "good": [
+          " äger",
+          " hålls"
+        ],
+        "bad": [
+          " tar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Children spend too much time in front of screens.'",
+        "asst_prefix": "Barn",
+        "good": [
+          " tillbringar",
+          " lägger"
+        ],
+        "bad": [
+          " spenderar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'We spent the entire summer in the archipelago.'",
+        "asst_prefix": "Vi",
+        "good": [
+          " tillbringade"
+        ],
+        "bad": [
+          " spenderade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Engineers spend hours debugging legacy code.'",
+        "asst_prefix": "Ingenjörer",
+        "good": [
+          " lägger",
+          " tillbringar"
+        ],
+        "bad": [
+          " spenderar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'How would you like to spend your vacation?'",
+        "asst_prefix": "Hur vill du helst",
+        "good": [
+          " tillbringa"
+        ],
+        "bad": [
+          " spendera"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'She spent two years as a guest researcher in Zurich.'",
+        "asst_prefix": "Hon",
+        "good": [
+          " tillbringade"
+        ],
+        "bad": [
+          " spenderade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The whitepaper addresses three urgent challenges.'",
+        "asst_prefix": "Rapporten",
+        "good": [
+          " behandlar",
+          " hanterar",
+          " belyser",
+          " tar"
+        ],
+        "bad": [
+          " adresserar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'How should we address the security vulnerability?'",
+        "asst_prefix": "Hur bör vi bäst",
+        "good": [
+          " åtgärda",
+          " hantera"
+        ],
+        "bad": [
+          " adressera"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The minister refused to address the allegations.'",
+        "asst_prefix": "Ministern vägrade att",
+        "good": [
+          " bemöta",
+          " kommentera"
+        ],
+        "bad": [
+          " adressera"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Our next release will address the battery drain.'",
+        "asst_prefix": "Nästa uppdatering kommer att",
+        "good": [
+          " åtgärda",
+          " lösa",
+          " hantera"
+        ],
+        "bad": [
+          " adressera"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The municipality must address housing shortages.'",
+        "asst_prefix": "Kommunen måste",
+        "good": [
+          " hantera",
+          " åtgärda",
+          " lösa"
+        ],
+        "bad": [
+          " adressera"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'At the end of the day, trust is everything.'",
+        "asst_prefix": "I",
+        "good": [
+          " slutändan"
+        ],
+        "bad": [
+          " slutet"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'At the end of the day, customers pay our salaries.'",
+        "asst_prefix": "I",
+        "good": [
+          " slutändan"
+        ],
+        "bad": [
+          " slutet"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'At the end of the day, safety comes first.'",
+        "asst_prefix": "I",
+        "good": [
+          " slutändan"
+        ],
+        "bad": [
+          " slutet"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Eventually, the truth came out.'",
+        "asst_prefix": "Till",
+        "good": [
+          " slut"
+        ],
+        "bad": [
+          " eventuellt"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'What was the actual temperature in the reactor?'",
+        "asst_prefix": "Vad var den",
+        "good": [
+          " faktiska",
+          " verkliga"
+        ],
+        "bad": [
+          " aktuella"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Compare the forecast with the actual outcome.'",
+        "asst_prefix": "Jämför prognosen med det",
+        "good": [
+          " faktiska",
+          " verkliga"
+        ],
+        "bad": [
+          " aktuella"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'His argument does not make sense economically.'",
+        "asst_prefix": "Hans resonemang är ekonomiskt inte",
+        "good": [
+          " rimligt",
+          " hållbart",
+          " logiskt"
+        ],
+        "bad": [
+          " meningsfullt"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'It makes sense to back up the database first.'",
+        "asst_prefix": "Det är helt",
+        "good": [
+          " rimligt",
+          " naturligt",
+          " klokt",
+          " logiskt"
+        ],
+        "bad": [
+          " meningsfullt"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Over two hundred students applied for the scholarship.'",
+        "asst_prefix": "Över tvåhundra studenter ansökte",
+        "good": [
+          " om"
+        ],
+        "bad": [
+          " för"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Who is responsible for the clinical study?'",
+        "asst_prefix": "Vem ansvarar",
+        "good": [
+          " för"
+        ],
+        "bad": [
+          " om",
+          " av"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Nobody doubted her competence.'",
+        "asst_prefix": "Ingen tvivlade",
+        "good": [
+          " på"
+        ],
+        "bad": [
+          " om",
+          " över"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'The committee consists of seven independent experts.'",
+        "asst_prefix": "Kommittén består",
+        "good": [
+          " av"
+        ],
+        "bad": [
+          " från",
+          " med"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "collocation",
+        "user": "Översätt till idiomatisk svenska: 'Experts warned about rising electricity prices.'",
+        "asst_prefix": "Experterna varnade",
+        "good": [
+          " för"
+        ],
+        "bad": [
+          " om",
+          " mot"
+        ],
+        "chat": true
+      }
+    ],
+    "C5_Pure_Swedish_Tech_Business": [
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'We invited all external stakeholders to the hearing.'",
+        "asst_prefix": "Vi bjöd in samtliga externa",
+        "good": [
+          " intressenter",
+          " aktörer",
+          " parter"
+        ],
+        "bad": [
+          " stake",
+          " stakeholders"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Dialogue with local stakeholders is crucial.'",
+        "asst_prefix": "Dialogen med lokala",
+        "good": [
+          " intressenter",
+          " aktörer"
+        ],
+        "bad": [
+          " stake",
+          " stakeholders"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Key stakeholders approved the budget.'",
+        "asst_prefix": "De viktigaste",
+        "good": [
+          " intressenterna"
+        ],
+        "bad": [
+          " stake",
+          " nyckelstake"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Sweden invests heavily in industrial R&D.'",
+        "asst_prefix": "Sverige satsar stort på industriell",
+        "good": [
+          " forskning",
+          " FoU"
+        ],
+        "bad": [
+          " R&D",
+          " R"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'The R&D center in Lund employs 400 researchers.'",
+        "asst_prefix": "Avdelningen för",
+        "good": [
+          " forskning",
+          " FoU"
+        ],
+        "bad": [
+          " R&D",
+          " R"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Automating the workflow saved ten hours a week.'",
+        "asst_prefix": "Att automatisera",
+        "good": [
+          " arbetsflödet",
+          " flödet"
+        ],
+        "bad": [
+          " workflow",
+          " work"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'How can we simplify the editorial workflow?'",
+        "asst_prefix": "Hur kan vi förenkla det redaktionella",
+        "good": [
+          " arbetsflödet"
+        ],
+        "bad": [
+          " workflow",
+          " work"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Good onboarding reduces staff turnover.'",
+        "asst_prefix": "En bra",
+        "good": [
+          " introduktion"
+        ],
+        "bad": [
+          " onboarding"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'HR redesigned the onboarding for new graduates.'",
+        "asst_prefix": "Personalavdelningen gjorde om",
+        "good": [
+          " introduktionen"
+        ],
+        "bad": [
+          " onboarding"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Customers gave constructive feedback after the test.'",
+        "asst_prefix": "Kunderna gav konstruktiv",
+        "good": [
+          " återkoppling",
+          " respons"
+        ],
+        "bad": [
+          " feedback"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Fast feedback helps students learn.'",
+        "asst_prefix": "Snabb",
+        "good": [
+          " återkoppling"
+        ],
+        "bad": [
+          " feedback"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'What are the key takeaways from today's seminar?'",
+        "asst_prefix": "Vilka är de viktigaste",
+        "good": [
+          " slutsatserna",
+          " lärdomarna",
+          " insikterna"
+        ],
+        "bad": [
+          " take",
+          " takeaways"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Summary of key takeaways for the board:'",
+        "asst_prefix": "Sammanfattning av de viktigaste",
+        "good": [
+          " slutsatserna",
+          " punkterna",
+          " insikterna"
+        ],
+        "bad": [
+          " take",
+          " takeaways"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Strict regulatory compliance is mandatory in banking.'",
+        "asst_prefix": "Strikt",
+        "good": [
+          " regelefterlevnad"
+        ],
+        "bad": [
+          " compliance"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'The legal team monitors GDPR compliance.'",
+        "asst_prefix": "Juridikavdelningen övervakar",
+        "good": [
+          " efterlevnaden",
+          " regelefterlevnaden"
+        ],
+        "bad": [
+          " compliance"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'We published a three-year product roadmap.'",
+        "asst_prefix": "Vi publicerade en treårig",
+        "good": [
+          " färdplan",
+          " utvecklingsplan",
+          " plan"
+        ],
+        "bad": [
+          " roadmap",
+          " road"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'What is the final deadline for applications?'",
+        "asst_prefix": "När är sista",
+        "good": [
+          " ansöknings",
+          " inlämnings",
+          " datum",
+          " dagen"
+        ],
+        "bad": [
+          " deadline"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'The tender must be submitted before the deadline.'",
+        "asst_prefix": "Anbudet måste lämnas in före",
+        "good": [
+          " tidsfristen",
+          " sista"
+        ],
+        "bad": [
+          " deadline"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Our support desk handles 500 tickets daily.'",
+        "asst_prefix": "Vår kundtjänst hanterar femhundra",
+        "good": [
+          " ärenden"
+        ],
+        "bad": [
+          " tickets",
+          " ticket"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'Open a new support ticket in the portal.'",
+        "asst_prefix": "Skapa ett nytt",
+        "good": [
+          " ärende",
+          " supportärende"
+        ],
+        "bad": [
+          " ticket"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'The CEO presented the quarterly highlights.'",
+        "asst_prefix": "Vd:n presenterade kvartalets",
+        "good": [
+          " höjdpunkter",
+          " viktigaste"
+        ],
+        "bad": [
+          " highlights",
+          " high"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'We need a shared mindset across departments.'",
+        "asst_prefix": "Vi behöver ett gemensamt",
+        "good": [
+          " synsätt",
+          " förhållningssätt",
+          " tänk"
+        ],
+        "bad": [
+          " mindset",
+          " mind"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'This hospital serves as a best-practice benchmark.'",
+        "asst_prefix": "Det här sjukhuset fungerar som ett",
+        "good": [
+          " föredöme",
+          " riktmärke"
+        ],
+        "bad": [
+          " benchmark",
+          " best"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'They scheduled a kick-off in August.'",
+        "asst_prefix": "De planerade ett",
+        "good": [
+          " uppstartsmöte",
+          " startmöte"
+        ],
+        "bad": [
+          " kick"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "Översätt till vårdad svenska: 'The Supply Chain suffered severe bottlenecks.'",
+        "asst_prefix": "Hela",
+        "good": [
+          " leveranskedjan",
+          " varukedjan",
+          " försörjningskedjan"
+        ],
+        "bad": [
+          " supply",
+          " Supply"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om nätverksanslutningen bryts under överföringen,",
+        "good": [
+          " avbryts",
+          " försöker",
+          " kan",
+          " måste",
+          " bör",
+          " sparas"
+        ],
+        "bad": [
+          " try",
+          " check",
+          " please",
+          " the",
+          " reconnect",
+          " it"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om tjänsten inte svarar inom tio sekunder,",
+        "good": [
+          " avbryts",
+          " kan",
+          " bör",
+          " måste",
+          " skickas",
+          " loggas"
+        ],
+        "bad": [
+          " try",
+          " check",
+          " please",
+          " restart",
+          " the",
+          " timeout"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "När säkerhetskopieringen är slutförd på natten,",
+        "good": [
+          " skickas",
+          " stängs",
+          " kan",
+          " raderas",
+          " verifieras",
+          " skapas"
+        ],
+        "bad": [
+          " the",
+          " it",
+          " check",
+          " please",
+          " run",
+          " make"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Innan du driftsätter den nya versionen,",
+        "good": [
+          " bör",
+          " måste",
+          " ska",
+          " kontrolleras",
+          " genomförs"
+        ],
+        "bad": [
+          " make",
+          " check",
+          " ensure",
+          " please",
+          " run",
+          " always"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om lösenordet skrivs in fel fem gånger,",
+        "good": [
+          " spärras",
+          " låses",
+          " måste",
+          " skickas",
+          " kan"
+        ],
+        "bad": [
+          " the",
+          " please",
+          " try",
+          " user",
+          " account",
+          " reset"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "För att förhindra obehörig åtkomst till databasen,",
+        "good": [
+          " krävs",
+          " används",
+          " bör",
+          " måste",
+          " ska"
+        ],
+        "bad": [
+          " use",
+          " make",
+          " ensure",
+          " enable",
+          " always",
+          " access"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om certifikatet har löpt ut på servern,",
+        "good": [
+          " nekas",
+          " visas",
+          " måste",
+          " bör",
+          " kan"
+        ],
+        "bad": [
+          " the",
+          " please",
+          " renew",
+          " update",
+          " check",
+          " it"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "När en användare begär radering av personuppgifter,",
+        "good": [
+          " måste",
+          " ska",
+          " raderas",
+          " tas",
+          " loggas"
+        ],
+        "bad": [
+          " the",
+          " delete",
+          " remove",
+          " ensure",
+          " user",
+          " all"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om minnesanvändningen överstiger åttio procent,",
+        "good": [
+          " triggas",
+          " skickas",
+          " startas",
+          " kan",
+          " bör",
+          " larmar"
+        ],
+        "bad": [
+          " the",
+          " scale",
+          " check",
+          " restart",
+          " alert",
+          " it"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Så snart paketet har signerats kryptografiskt,",
+        "good": [
+          " kan",
+          " publiceras",
+          " skickas",
+          " distribueras",
+          " laddas"
+        ],
+        "bad": [
+          " it",
+          " upload",
+          " deploy",
+          " the",
+          " verify",
+          " push"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om konfigurationsfilen saknar nödvändiga fält,",
+        "good": [
+          " kastar",
+          " avbryter",
+          " visas",
+          " måste",
+          " kan",
+          " stoppas"
+        ],
+        "bad": [
+          " the",
+          " throw",
+          " return",
+          " check",
+          " add",
+          " please"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "För att sänka svarstiden vid hög belastning,",
+        "good": [
+          " används",
+          " cachas",
+          " kan",
+          " bör",
+          " infördes"
+        ],
+        "bad": [
+          " use",
+          " cache",
+          " enable",
+          " scale",
+          " reduce",
+          " add"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "När klustret startas om efter underhåll,",
+        "good": [
+          " läses",
+          " kontrolleras",
+          " återställs",
+          " kan",
+          " startar"
+        ],
+        "bad": [
+          " check",
+          " verify",
+          " the",
+          " all",
+          " nodes",
+          " it"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om två processer försöker skriva samtidigt,",
+        "good": [
+          " uppstår",
+          " låses",
+          " hanteras",
+          " kan",
+          " måste"
+        ],
+        "bad": [
+          " a",
+          " the",
+          " deadlock",
+          " lock",
+          " retry",
+          " both"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Innan tabellen raderas permanent ur lagret,",
+        "good": [
+          " skapas",
+          " tas",
+          " måste",
+          " bör",
+          " krävs"
+        ],
+        "bad": [
+          " make",
+          " back",
+          " backup",
+          " check",
+          " confirm",
+          " the"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om paketet inte kan hämtas från spegelservern,",
+        "good": [
+          " provas",
+          " används",
+          " faller",
+          " kan",
+          " bör",
+          " visas"
+        ],
+        "bad": [
+          " try",
+          " check",
+          " download",
+          " use",
+          " fallback",
+          " the"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "När brandväggen upptäcker misstänkt trafik,",
+        "good": [
+          " blockeras",
+          " loggas",
+          " skickas",
+          " spärras",
+          " larmar"
+        ],
+        "bad": [
+          " it",
+          " block",
+          " drop",
+          " alert",
+          " the",
+          " check"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "För att garantera spårbarhet i alla transaktioner,",
+        "good": [
+          " sparas",
+          " loggas",
+          " krävs",
+          " tilldelas",
+          " signeras"
+        ],
+        "bad": [
+          " log",
+          " use",
+          " ensure",
+          " every",
+          " all",
+          " keep"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om kön av väntande jobb blir full,",
+        "good": [
+          " avvisas",
+          " pausas",
+          " väntar",
+          " skickas",
+          " kan",
+          " måste"
+        ],
+        "bad": [
+          " drop",
+          " reject",
+          " wait",
+          " the",
+          " new",
+          " scale"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "När behörigheten har återkallats av administratören,",
+        "good": [
+          " avslutas",
+          " upphör",
+          " förlorar",
+          " loggas",
+          " kan"
+        ],
+        "bad": [
+          " the",
+          " user",
+          " revoke",
+          " session",
+          " access",
+          " it"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om skriptet körs utan administratörsrättigheter,",
+        "good": [
+          " misslyckas",
+          " visas",
+          " avbryts",
+          " kan",
+          " krävs"
+        ],
+        "bad": [
+          " run",
+          " sudo",
+          " try",
+          " it",
+          " permission",
+          " please"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "För att testa återställningen på ett säkert sätt,",
+        "good": [
+          " används",
+          " skapas",
+          " körs",
+          " bör",
+          " kan"
+        ],
+        "bad": [
+          " run",
+          " test",
+          " use",
+          " create",
+          " never",
+          " make"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om anropet returnerar statuskod femhundra,",
+        "good": [
+          " försöker",
+          " loggas",
+          " visas",
+          " kan",
+          " bör",
+          " innebär"
+        ],
+        "bad": [
+          " retry",
+          " check",
+          " it",
+          " the",
+          " server",
+          " handle"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "När indexeringen av dokumenten är färdig,",
+        "good": [
+          " blir",
+          " kan",
+          " visas",
+          " uppdateras",
+          " frigörs"
+        ],
+        "bad": [
+          " you",
+          " search",
+          " the",
+          " query",
+          " it",
+          " run"
+        ],
+        "chat": false
+      },
+      {
+        "sub": "jargon_or_codeswitch",
+        "user": "",
+        "asst_prefix": "Om kundens kortbetalning nekas av banken,",
+        "good": [
+          " visas",
+          " skickas",
+          " avbryts",
+          " kan",
+          " får"
+        ],
+        "bad": [
+          " ask",
+          " try",
+          " please",
+          " the",
+          " payment",
+          " order"
+        ],
+        "chat": false
+      }
+    ],
+    "C6_V2_and_BIFF_Syntax": [
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Yesterday, the parliament approved the climate law.'",
+        "asst_prefix": "Igår",
+        "good": [
+          " godkände",
+          " röstade",
+          " antog"
+        ],
+        "bad": [
+          ",",
+          " riksdagen",
+          " parlamentet"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Furthermore, the study shows strong regional differences.'",
+        "asst_prefix": "Dessutom",
+        "good": [
+          " visar",
+          " pekar",
+          " framgår"
+        ],
+        "bad": [
+          ",",
+          " studien",
+          " undersökningen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'However, the central bank kept the interest rate unchanged.'",
+        "asst_prefix": "Däremot",
+        "good": [
+          " lämnade",
+          " behöll",
+          " valde"
+        ],
+        "bad": [
+          ",",
+          " riksbanken",
+          " centralbanken"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'In Gothenburg, the port handles half of Sweden's trade.'",
+        "asst_prefix": "I Göteborg",
+        "good": [
+          " hanterar",
+          " står",
+          " passerar"
+        ],
+        "bad": [
+          ",",
+          " hamnen",
+          " staden"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Consequently, electricity prices fell during the weekend.'",
+        "asst_prefix": "Följaktligen",
+        "good": [
+          " sjönk",
+          " föll",
+          " minskade"
+        ],
+        "bad": [
+          ",",
+          " elpriserna",
+          " priserna"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Meanwhile, researchers developed a faster catalyst.'",
+        "asst_prefix": "Samtidigt",
+        "good": [
+          " utvecklade",
+          " tog",
+          " arbetade"
+        ],
+        "bad": [
+          ",",
+          " forskarna",
+          " forskare"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'After the audit, the CFO resigned immediately.'",
+        "asst_prefix": "Efter revisionen",
+        "good": [
+          " avgick",
+          " lämnade"
+        ],
+        "bad": [
+          ",",
+          " finanschefen",
+          " ekonomichefen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Despite the rain, thousands of runners completed the race.'",
+        "asst_prefix": "Trots regnet",
+        "good": [
+          " fullföljde",
+          " genomförde",
+          " sprang"
+        ],
+        "bad": [
+          ",",
+          " tusentals",
+          " löparna"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Suddenly, all streetlights went dark in the district.'",
+        "asst_prefix": "Plötsligt",
+        "good": [
+          " slocknade",
+          " blev",
+          " försvann"
+        ],
+        "bad": [
+          ",",
+          " alla",
+          " gatubelysningen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Next autumn, the university opens a new campus.'",
+        "asst_prefix": "Nästa höst",
+        "good": [
+          " öppnar",
+          " inviger",
+          " startar"
+        ],
+        "bad": [
+          ",",
+          " universitetet",
+          " högskolan"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Previously, patients had to wait several months.'",
+        "asst_prefix": "Tidigare",
+        "good": [
+          " tvingades",
+          " fick",
+          " behövde"
+        ],
+        "bad": [
+          ",",
+          " patienter",
+          " patienterna"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'In practice, the rule rarely applies to small firms.'",
+        "asst_prefix": "I praktiken",
+        "good": [
+          " gäller",
+          " tillämpas",
+          " berör"
+        ],
+        "bad": [
+          ",",
+          " regeln",
+          " småföretag"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Unfortunately, the ferry was cancelled due to storm.'",
+        "asst_prefix": "Tyvärr",
+        "good": [
+          " ställdes",
+          " blev",
+          " tvingades"
+        ],
+        "bad": [
+          ",",
+          " färjan",
+          " trafiken"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Fortunately, nobody was injured in the collision.'",
+        "asst_prefix": "Lyckligtvis",
+        "good": [
+          " skadades",
+          " klarade",
+          " kom"
+        ],
+        "bad": [
+          ",",
+          " ingen",
+          " alla"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'During the 1990s, Sweden reformed its pension system.'",
+        "asst_prefix": "Under 1990-talet",
+        "good": [
+          " reformerade",
+          " genomförde",
+          " ändrade"
+        ],
+        "bad": [
+          ",",
+          " Sverige",
+          " staten"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'At the same time, exports to Germany increased.'",
+        "asst_prefix": "På samma gång",
+        "good": [
+          " ökade",
+          " steg",
+          " växte"
+        ],
+        "bad": [
+          ",",
+          " exporten",
+          " handeln"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'For that reason, we recommend a phased rollout.'",
+        "asst_prefix": "Av den anledningen",
+        "good": [
+          " rekommenderar",
+          " föreslår",
+          " förordar"
+        ],
+        "bad": [
+          ",",
+          " vi",
+          " gruppen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Normally, the process takes less than five minutes.'",
+        "asst_prefix": "Normalt",
+        "good": [
+          " tar",
+          " kräver",
+          " pågår"
+        ],
+        "bad": [
+          ",",
+          " processen",
+          " det"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Today, more than eighty percent use mobile banking.'",
+        "asst_prefix": "Idag",
+        "good": [
+          " använder",
+          " nyttjar",
+          " har"
+        ],
+        "bad": [
+          ",",
+          " mer",
+          " åttio"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Every winter, tourists travel north to see the aurora.'",
+        "asst_prefix": "Varje vinter",
+        "good": [
+          " reser",
+          " åker",
+          " lockas"
+        ],
+        "bad": [
+          ",",
+          " turister",
+          " många"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'On Tuesday, the Prime Minister meets Nordic leaders.'",
+        "asst_prefix": "På tisdag",
+        "good": [
+          " träffar",
+          " möter",
+          " sammanträder"
+        ],
+        "bad": [
+          ",",
+          " statsministern",
+          " regeringen"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Without clear goals, projects easily lose momentum.'",
+        "asst_prefix": "Utan tydliga mål",
+        "good": [
+          " tappar",
+          " förlorar",
+          " riskerar"
+        ],
+        "bad": [
+          ",",
+          " projekt",
+          " projekten"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Since January, inflation has fallen steadily.'",
+        "asst_prefix": "Sedan januari",
+        "good": [
+          " har",
+          " ligger",
+          " sjunker"
+        ],
+        "bad": [
+          ",",
+          " inflationen",
+          " priserna"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'In the report, the authors highlight three risks.'",
+        "asst_prefix": "I rapporten",
+        "good": [
+          " lyfter",
+          " pekar",
+          " framhåller"
+        ],
+        "bad": [
+          ",",
+          " författarna",
+          " utredarna"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "v2_main_clause",
+        "user": "Översätt till naturlig svenska: 'Afterwards, everyone gathered in the courtyard.'",
+        "asst_prefix": "Efteråt",
+        "good": [
+          " samlades",
+          " gick",
+          " bjöds"
+        ],
+        "bad": [
+          ",",
+          " alla",
+          " deltagarna"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'She explained that the budget was not sufficient.'",
+        "asst_prefix": "Hon förklarade att budgeten",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " var",
+          " räckte"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'We cancelled the trip because the weather had not improved.'",
+        "asst_prefix": "Vi ställde in resan eftersom vädret",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Anyone who has not registered must wait outside.'",
+        "asst_prefix": "Den som",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " har"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'If the supplier cannot deliver on time, we switch.'",
+        "asst_prefix": "Om leverantören",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " kan"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'He admitted that he had never read the appendix.'",
+        "asst_prefix": "Han medgav att han",
+        "good": [
+          " aldrig"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'They chose a material that never rusts.'",
+        "asst_prefix": "De valde ett material som",
+        "good": [
+          " aldrig"
+        ],
+        "bad": [
+          " rostar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Although the committee had already voted, debate continued.'",
+        "asst_prefix": "Trots att kommittén",
+        "good": [
+          " redan"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'She asked whether the guests had already arrived.'",
+        "asst_prefix": "Hon frågade om gästerna",
+        "good": [
+          " redan"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Companies that often invest in training grow faster.'",
+        "asst_prefix": "Företag som",
+        "good": [
+          " ofta"
+        ],
+        "bad": [
+          " investerar",
+          " satsar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'I know that he always double-checks the figures.'",
+        "asst_prefix": "Jag vet att han",
+        "good": [
+          " alltid"
+        ],
+        "bad": [
+          " dubbelkollar",
+          " kontrollerar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Since the train did not stop in Hallsberg, we missed the connection.'",
+        "asst_prefix": "Eftersom tåget",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " stannade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Please let me know if you will not attend.'",
+        "asst_prefix": "Meddela gärna om du",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " kommer",
+          " kan"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'It is strange that the auditors had not noticed the leak.'",
+        "asst_prefix": "Det är märkligt att revisorerna",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'We waited until the wind was no longer dangerous.'",
+        "asst_prefix": "Vi väntade tills vinden",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'The lawyer noted that the clause does not apply here.'",
+        "asst_prefix": "Juristen påpekade att klausulen",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " gäller"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'People who rarely exercise sleep worse.'",
+        "asst_prefix": "Personer som",
+        "good": [
+          " sällan"
+        ],
+        "bad": [
+          " tränar",
+          " motionerar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Even though she could not swim, she bought a kayak.'",
+        "asst_prefix": "Fastän hon",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " kunde"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'He promised that it would never happen again.'",
+        "asst_prefix": "Han lovade att det",
+        "good": [
+          " aldrig"
+        ],
+        "bad": [
+          " skulle"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'When the alarm does not work, call the technician.'",
+        "asst_prefix": "När larmet",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " fungerar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'They realized that the server was still not online.'",
+        "asst_prefix": "De insåg att servern fortfarande",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " var"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'A colleague who always listens builds trust.'",
+        "asst_prefix": "En kollega som",
+        "good": [
+          " alltid"
+        ],
+        "bad": [
+          " lyssnar"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Because the municipality would not approve the plan, it stalled.'",
+        "asst_prefix": "Därför att kommunen",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " ville"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'She wondered why they had not replied yet.'",
+        "asst_prefix": "Hon undrade varför de",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'Unless the board objects, we sign tomorrow.'",
+        "asst_prefix": "Såvida styrelsen",
+        "good": [
+          " inte"
+        ],
+        "bad": [
+          " invänder",
+          " motsätter"
+        ],
+        "chat": true
+      },
+      {
+        "sub": "biff_subordinate",
+        "user": "Översätt till korrekt svenska: 'We saw that the ice had already melted.'",
+        "asst_prefix": "Vi såg att isen",
+        "good": [
+          " redan"
+        ],
+        "bad": [
+          " hade"
+        ],
+        "chat": true
+      }
+    ]
+  },
+  "pillar2_swed_freegen_60": [
+    {
+      "id": "FG01",
+      "cat": "translation_biz",
+      "prompt": "Översätt följande engelska text till naturlig, vårdad svenska (endast själva översättningen):\n'Yesterday, the board met with key stakeholders to take a tough decision. Eventually, they realized that the old workflow did not create any real value for customers, and that the R&D department must take immediate measures.'"
+    },
+    {
+      "id": "FG02",
+      "cat": "translation_biz",
+      "prompt": "Översätt följande text till idiomatisk svenska (endast översättningen):\n'At the end of the day, smooth onboarding and fast feedback make a huge difference. Companies that spend resources on employee training rarely make the same mistake twice.'"
+    },
+    {
+      "id": "FG03",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'The annual summit will take place in Uppsala next Thursday. Before we enter into a binding agreement with the supplier, our legal team must verify strict compliance and check the actual cost.'"
+    },
+    {
+      "id": "FG04",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'We sent the final report to them yesterday and asked where they are heading next quarter. However, nobody knew where the backup servers were located or whether the proposal provided any concrete support.'"
+    },
+    {
+      "id": "FG05",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'If the system does not respond within five seconds, an incident ticket is created automatically. Here are the three key takeaways from our product roadmap and how we address bottlenecks in the supply chain.'"
+    },
+    {
+      "id": "FG06",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Anyone can make a mistake, but management carries a great responsibility when patients do not receive any clear answer. Therefore, the hospital took strong measures to improve patient safety.'"
+    },
+    {
+      "id": "FG07",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Many young engineers applied for the fellowship because they wanted to spend a year in northern Sweden. Among them were several researchers who had never worked outside their home country.'"
+    },
+    {
+      "id": "FG08",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'There is no doubt that the reform requires great patience from all stakeholders. Does it really make sense to rush a decision before the deadline when we have no other choice?'"
+    },
+    {
+      "id": "FG09",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Are you staying at home tomorrow or coming home late from Malmö? Let them know early if you cannot attend the kick-off meeting.'"
+    },
+    {
+      "id": "FG10",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Compare the budget with the actual outcome for Q3. Although the team had already cut costs, the project still lacked a clear purpose and gave no measurable value.'"
+    },
+    {
+      "id": "FG11",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'The authority warned about security flaws and demanded that operators take preventive measures. Without support from them, small municipalities cannot address these risks alone.'"
+    },
+    {
+      "id": "FG12",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Eventually, both parties entered into a five-year contract. The ceremony took place in Gothenburg, and the CEO thanked all of them for their commitment.'"
+    },
+    {
+      "id": "FG13",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'Do you know where the delegation went after the press conference, and where their hotel is located? We tried to reach them by phone, because the schedule had not been updated.'"
+    },
+    {
+      "id": "FG14",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'In Sweden, public agencies must maintain a shared mindset around transparency. At the end of the day, citizens expect us to make well-founded decisions.'"
+    },
+    {
+      "id": "FG15",
+      "cat": "translation_biz",
+      "prompt": "Översätt till vårdad svenska (endast översättningen):\n'She took a major responsibility during the merger and gave constructive feedback to everyone. Among them, trust grew quickly because she never promised anything that did not make sense.'"
+    },
+    {
+      "id": "FG16",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Igår, styrelsen tog en svår beslut som inte ger någon egentlig värde för de som arbetar här.'"
+    },
+    {
+      "id": "FG17",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Konferensen tar plats på fredag och vi har skickat programmet till alla de som ansökte för en stipendium.'"
+    },
+    {
+      "id": "FG18",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Ingen visste var tåget var på väg eftersom konduktören hade inte informerat de.'"
+    },
+    {
+      "id": "FG19",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'I slutet av dagen måste myndigheten ta kraftfulla åtgärder för att adressera problemet och inte göra samma misstag igen.'"
+    },
+    {
+      "id": "FG20",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Vi spenderade hela helgen hem med familjen och pratade länge med de om var vi ska flytta i höst.'"
+    },
+    {
+      "id": "FG21",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Vår R&D-avdelning presenterade tre key takeaways för alla nyckelstakeholders innan deadline.'"
+    },
+    {
+      "id": "FG22",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Det råder ingen tvivel om att båda företagen gjorde ett bindande avtal som ger stor stöd.'"
+    },
+    {
+      "id": "FG23",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Eventuellt lyckades forskarna lösa gåtan, trots att de kunde inte hitta någon konkret fel i koden.'"
+    },
+    {
+      "id": "FG24",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Hon frågade var jag ska resa i sommar och om jag kommer stanna hem under julen.'"
+    },
+    {
+      "id": "FG25",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Den här förklaringen gör mening om man jämför prognosen med den aktuella utfallet.'"
+    },
+    {
+      "id": "FG26",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Bland de som deltog fanns stor tålamod, och vd:n tackade de varmt.'"
+    },
+    {
+      "id": "FG27",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'En smidig onboarding och bra feedback hjälper nyanställda i deras dagliga workflow.'"
+    },
+    {
+      "id": "FG28",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Om servern svarar inte inom fem sekunder så vi hade ingen annan val än att starta om den.'"
+    },
+    {
+      "id": "FG29",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Kom här och berätta vart du har lagt nycklarna som jag gav till de!'"
+    },
+    {
+      "id": "FG30",
+      "cat": "proofread",
+      "prompt": "Rätta alla språkfel och anglicismer i meningen och svara ENDAST med den korrigerade meningen:\n'Efter granskningen, kommunen tog ett ny beslut om strikt compliance i leveranskedjan.'"
+    },
+    {
+      "id": "FG31",
+      "cat": "native_writing",
+      "prompt": "Skriv ett kort, välformulerat meddelande (4–5 meningar) på vårdad svenska från en vd till medarbetarna om varför styrelsen fattade ett svårt beslut om omorganisation och hur företaget ska ge stöd till alla dem som berörs."
+    },
+    {
+      "id": "FG32",
+      "cat": "native_writing",
+      "prompt": "Förklara på ren, naturlig facksvenska (utan onödiga engelska jargongord, max 5 meningar) hur en utvecklingsavdelning kan förbättra sitt arbetsflöde, sin introduktion av nyanställda och sin återkoppling från kunder."
+    },
+    {
+      "id": "FG33",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort nyhetsnotis (4 meningar) om en internationell energikonferens som äger rum i Luleå nästa vecka, vilka intressenter som deltar och vilka åtgärder som diskuteras."
+    },
+    {
+      "id": "FG34",
+      "cat": "native_writing",
+      "prompt": "Skriv ett sakligt svar (4 meningar) från en kommun till invånare som undrar vart den nya busslinjen ska gå, var hållplatserna kommer att ligga och varför kommunen ingick ett nytt trafikavtal."
+    },
+    {
+      "id": "FG35",
+      "cat": "native_writing",
+      "prompt": "Beskriv på klar och vårdad svenska (4–5 meningar) vad en systemadministratör bör göra om en databas inte svarar, hur man undviker att begå misstag vid återställning och hur man informerar dem som drabbats."
+    },
+    {
+      "id": "FG36",
+      "cat": "native_writing",
+      "prompt": "Skriv ett kort professionellt kundmejl på svenska (utan engelska mejlklyschor, 4–5 meningar) om att leveransen tyvärr är försenad, vilka åtgärder vi har vidtagit och vart kunden kan vända sig med frågor."
+    },
+    {
+      "id": "FG37",
+      "cat": "native_writing",
+      "prompt": "Sammanfatta i fyra korta punkter på ren svenska vad god regelefterlevnad innebär för en bank när den ingår avtal med underleverantörer."
+    },
+    {
+      "id": "FG38",
+      "cat": "native_writing",
+      "prompt": "Förklara kort på svenska (4 meningar) skillnaden mellan forskning och utveckling i ett industriföretag och varför långsiktigt tålamod skapar stort värde i slutändan."
+    },
+    {
+      "id": "FG39",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort reflektion (4 meningar) på vårdad svenska om hur barn och unga tillbringar sin fritid idag, hur mycket tid de är ute jämfört med hemma, och vilket ansvar vuxna bär."
+    },
+    {
+      "id": "FG40",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort instruktion på svenska (4 meningar) till projektdeltagare inför ett uppstartsmöte: när mötet äger rum, vilket förslag som ligger på bordet och när sista datum för synpunkter är."
+    },
+    {
+      "id": "FG41",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på vårdad svenska om varför en myndighet ibland måste fatta snabba beslut under en kris trots att man ännu inte har något fullständigt beslutsunderlag."
+    },
+    {
+      "id": "FG42",
+      "cat": "native_writing",
+      "prompt": "Förklara kort på ren svenska (4 meningar) hur ett svenskt universitet samarbetar med externa intressenter i näringslivet och vilka viktiga slutsatser en utvärdering nyligen visade."
+    },
+    {
+      "id": "FG43",
+      "cat": "native_writing",
+      "prompt": "Skriv ett kort svar på svenska (4 meningar) till två kollegor där du tackar dem för deras insats, berättar var morgondagens möte hålls och frågar när de åker hem på fredag."
+    },
+    {
+      "id": "FG44",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort sammanfattning på vårdad svenska (4 meningar) om ett svenskt vårdprojekt som gav gott resultat, minskade väntetiderna och bemötte tidigare kritik på ett sakligt sätt."
+    },
+    {
+      "id": "FG45",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på korrekt svenska om en familj som länge funderade på vart de skulle flytta, tillbringade en sommar på Öland och till slut köpte ett gammalt hus där."
+    },
+    {
+      "id": "FG46",
+      "cat": "native_writing",
+      "prompt": "Skriv ett kort pressmeddelande på ren svenska (4–5 meningar) om två nordiska teknikbolag som idag ingick ett strategiskt samarbetsavtal kring grön stålproduktion."
+    },
+    {
+      "id": "FG47",
+      "cat": "native_writing",
+      "prompt": "Förklara i fyra meningar på vårdad svenska hur en kundtjänst tar emot supportärenden, ger snabb återkoppling och hjälper dem som har tekniska problem."
+    },
+    {
+      "id": "FG48",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på svenska om vad man bör tänka på innan man ansöker om bygglov i sin kommun så att man inte begår onödiga misstag."
+    },
+    {
+      "id": "FG49",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort analys på vårdad svenska (4 meningar) om varför det faktiska utfallet i ett infrastrukturprojekt ofta skiljer sig från den ursprungliga prognosen."
+    },
+    {
+      "id": "FG50",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på god svenska om en idrottsförening som bjöd in ungdomar till sin anläggning, gav dem stöd och visade att sammanhållning spelar en avgörande roll."
+    },
+    {
+      "id": "FG51",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort redogörelse på svenska (4 meningar) om hur revisorer granskar en årsredovisning, kontrollerar att inga väsentliga fel finns och rapporterar sina iakttagelser till styrelsen."
+    },
+    {
+      "id": "FG52",
+      "cat": "native_writing",
+      "prompt": "Beskriv i fyra meningar på ren svenska hur ett bibliotek digitaliserade sina samlingar för att ge forskare och allmänhet enklare tillgång till historiskt material."
+    },
+    {
+      "id": "FG53",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på vårdad svenska om en domstol som prövade ett komplicerat tvistemål, lyssnade på båda parter och slutligen meddelade sin dom."
+    },
+    {
+      "id": "FG54",
+      "cat": "native_writing",
+      "prompt": "Förklara i fyra meningar på ren svenska varför cybersäkerhet kräver ett gemensamt förhållningssätt i hela organisationen och tydliga rutiner när incidenter inträffar."
+    },
+    {
+      "id": "FG55",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på svenska om en skola i Västerås som införde lugnare studiemiljö, lyssnade på elevernas återkoppling och såg ett tydligt lyft i resultaten."
+    },
+    {
+      "id": "FG56",
+      "cat": "native_writing",
+      "prompt": "Skriv en kort inbjudan på vårdad svenska (4 meningar) till ett frukostseminarium om hållbara leveranskedjor: var det hålls, när det äger rum och till vem det riktar sig."
+    },
+    {
+      "id": "FG57",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på god svenska om ett forskarlag i Uppsala som publicerade en studie trots att deras första experiment inte gav något entydigt svar."
+    },
+    {
+      "id": "FG58",
+      "cat": "native_writing",
+      "prompt": "Förklara kort på svenska (4 meningar) varför styrelsen i en bostadsrättsförening ibland måste vidta kostsamma underhållsåtgärder i tid för att undvika större skador senare."
+    },
+    {
+      "id": "FG59",
+      "cat": "native_writing",
+      "prompt": "Skriv fyra meningar på vårdad svenska om hur distansarbete har förändrat vardagen för dem som pendlar långt och hur man balanserar arbete hemma med möten på kontoret."
+    },
+    {
+      "id": "FG60",
+      "cat": "native_writing",
+      "prompt": "Sammanfatta i fyra meningar på ren svenska en treårig färdplan för kollektivtrafiken i en svensk region, med fokus på punktlighet och lägre utsläpp."
+    }
+  ],
+  "pillar3_zero_collateral": {
+    "anchor_40": [
+      "The capital of France is",
+      "Water freezes at 0 degrees",
+      "The chemical symbol for gold is",
+      "The speed of light in vacuum is approximately",
+      "The planets in our solar system include Earth, Mars, and",
+      "In TCP/IP networking, port 443 is used for",
+      "William Shakespeare wrote the tragedy of",
+      "Photosynthesis converts carbon dioxide and water into glucose and",
+      "The largest ocean on Earth is the",
+      "DNA stands for deoxyribonucleic",
+      "La capitale de la France est",
+      "En informatique, un algorithme de tri permet de",
+      "La Révolution française a commencé en",
+      "L'eau bout à une température de cent degrés",
+      "Le président de la République française réside au palais de",
+      "Dans le système solaire, la planète la plus proche du Soleil est",
+      "Victor Hugo a écrit le célèbre roman Les",
+      "Pour calculer l'aire d'un cercle, on multiplie pi par le rayon au",
+      "Die Hauptstadt von Deutschland ist",
+      "Die Relativitätstheorie wurde von Albert",
+      "Wasser besteht aus Wasserstoff und",
+      "La capital de España es la ciudad de",
+      "El océano más grande del planeta Tierra es el",
+      "Miguel de Cervantes escribió Don Quijote de la",
+      "def fibonacci(n):\n    if n <= 1:\n        return",
+      "import numpy as np\nx = np.array([1, 2, 3])\nprint(x.",
+      "class BinaryTreeNode:\n    def __init__(self, val):\n        self.",
+      "try:\n    result = 10 / x\nexcept ZeroDivisionError",
+      "SELECT COUNT(*) FROM orders WHERE status =",
+      "{\"tool\": \"weather_lookup\", \"arguments\": {",
+      "git checkout -b feature/",
+      "def is_palindrome(s: str) -> bool:\n    return s ==",
+      "CREATE TABLE customers (\n    id INT PRIMARY KEY,",
+      "with open('data.json', 'r', encoding='utf-8') as f:\n    data = json.",
+      "The derivative of x^3 with respect to x is",
+      "The positive square root of 144 is",
+      "If 3x + 5 = 20, then x =",
+      "A right triangle with legs 3 and 4 has hypotenuse",
+      "The sum of the interior angles of a triangle in degrees is",
+      "Logarithm base 10 of 1000 equals"
+    ],
+    "python_20": [
+      {
+        "id": "PY01",
+        "prompt": "Write ONLY a Python function `def add_squares(a, b):` that returns a^2 + b^2. Output plain code without markdown explanations.",
+        "test": "assert add_squares(3, 4) == 25 and add_squares(0, 5) == 25"
+      },
+      {
+        "id": "PY02",
+        "prompt": "Write ONLY a Python function `def reverse_words(s):` that reverses the order of whitespace-separated words in string `s`.",
+        "test": "assert reverse_words('hello world today') == 'today world hello'"
+      },
+      {
+        "id": "PY03",
+        "prompt": "Write ONLY a Python function `def factorial(n):` that returns n! for non-negative integer n.",
+        "test": "assert factorial(0) == 1 and factorial(5) == 120"
+      },
+      {
+        "id": "PY04",
+        "prompt": "Write ONLY a Python function `def is_prime(n):` returning True if integer n >= 2 is prime else False.",
+        "test": "assert is_prime(2) is True and is_prime(17) is True and is_prime(15) is False and is_prime(1) is False"
+      },
+      {
+        "id": "PY05",
+        "prompt": "Write ONLY a Python function `def flatten_once(lst):` that flattens a list of lists by one level.",
+        "test": "assert flatten_once([[1, 2], [3], [4, 5]]) == [1, 2, 3, 4, 5]"
+      },
+      {
+        "id": "PY06",
+        "prompt": "Write ONLY a Python function `def gcd(a, b):` that returns the greatest common divisor of positive integers a and b.",
+        "test": "assert gcd(48, 18) == 6 and gcd(17, 13) == 1"
+      },
+      {
+        "id": "PY07",
+        "prompt": "Write ONLY a Python function `def count_vowels(s):` counting a, e, i, o, u (case-insensitive) in `s`.",
+        "test": "assert count_vowels('AeIoU xyz') == 5 and count_vowels('rhythm') == 0"
+      },
+      {
+        "id": "PY08",
+        "prompt": "Write ONLY a Python function `def second_largest(nums):` returning the second largest unique number in `nums`.",
+        "test": "assert second_largest([10, 20, 20, 8, 15]) == 15"
+      },
+      {
+        "id": "PY09",
+        "prompt": "Write ONLY a Python function `def merge_sorted(a, b):` merging two sorted lists into one sorted list.",
+        "test": "assert merge_sorted([1, 4, 7], [2, 3, 9]) == [1, 2, 3, 4, 7, 9]"
+      },
+      {
+        "id": "PY10",
+        "prompt": "Write ONLY a Python function `def caesar_shift(s, k):` shifting lowercase ASCII letters a-z by k positions.",
+        "test": "assert caesar_shift('abcxyz', 2) == 'cdezab'"
+      },
+      {
+        "id": "PY11",
+        "prompt": "Write ONLY a Python function `def two_sum_indices(nums, target):` returning tuple `(i, j)` with `i < j` and `nums[i] + nums[j] == target`.",
+        "test": "assert tuple(two_sum_indices([2, 7, 11, 15], 9)) == (0, 1)"
+      },
+      {
+        "id": "PY12",
+        "prompt": "Write ONLY a Python function `def longest_common_prefix(strs):` returning the longest common prefix of a list of strings.",
+        "test": "assert longest_common_prefix(['flower', 'flow', 'flight']) == 'fl'"
+      },
+      {
+        "id": "PY13",
+        "prompt": "Write ONLY a Python function `def valid_brackets(s):` checking balanced `()`, `[]`, `{}`.",
+        "test": "assert valid_brackets('([{}])') is True and valid_brackets('([)]') is False"
+      },
+      {
+        "id": "PY14",
+        "prompt": "Write ONLY a Python function `def binary_search(arr, x):` returning index of `x` in sorted `arr` or -1 if absent.",
+        "test": "assert binary_search([1, 3, 5, 8, 12], 8) == 3 and binary_search([1, 3, 5], 4) == -1"
+      },
+      {
+        "id": "PY15",
+        "prompt": "Write ONLY a Python function `def run_length_encode(s):` returning list of `(char, count)` tuples.",
+        "test": "assert run_length_encode('aaabbc') == [('a', 3), ('b', 2), ('c', 1)]"
+      },
+      {
+        "id": "PY16",
+        "prompt": "Write ONLY a Python function `def matrix_transpose(m):` transposing a 2D rectangular list of lists.",
+        "test": "assert matrix_transpose([[1, 2, 3], [4, 5, 6]]) == [[1, 4], [2, 5], [3, 6]]"
+      },
+      {
+        "id": "PY17",
+        "prompt": "Write ONLY a Python function `def remove_duplicates_preserve_order(seq):` keeping first occurrences.",
+        "test": "assert remove_duplicates_preserve_order([3, 1, 3, 2, 1, 4]) == [3, 1, 2, 4]"
+      },
+      {
+        "id": "PY18",
+        "prompt": "Write ONLY a Python function `def dot_product(u, v):` returning dot product of two equal-length numeric lists.",
+        "test": "assert dot_product([1, 2, 3], [4, 5, 6]) == 32"
+      },
+      {
+        "id": "PY19",
+        "prompt": "Write ONLY a Python function `def is_anagram(a, b):` returning True if lowercase strings `a` and `b` are anagrams.",
+        "test": "assert is_anagram('listen', 'silent') is True and is_anagram('rat', 'car') is False"
+      },
+      {
+        "id": "PY20",
+        "prompt": "Write ONLY a Python function `def nth_fib(n):` with `nth_fib(0)==0`, `nth_fib(1)==1`, `nth_fib(10)==55`.",
+        "test": "assert nth_fib(0) == 0 and nth_fib(1) == 1 and nth_fib(10) == 55"
+      }
+    ],
+    "math_20": [
+      {
+        "id": "MA01",
+        "prompt": "A store sells notebooks for $7 each. If you buy 6 notebooks and pay with a $50 bill, how many dollars of change do you get? Reply with ONLY the final integer.",
+        "answer": "8"
+      },
+      {
+        "id": "MA02",
+        "prompt": "A train travels 180 km in 2 hours, then 120 km in 1 hour. What is its average speed in km/h over the whole trip? Reply with ONLY the final integer.",
+        "answer": "100"
+      },
+      {
+        "id": "MA03",
+        "prompt": "If 4 machines produce 400 parts in 5 hours, how many parts do 6 machines produce in 3 hours at the same rate? Reply with ONLY the final integer.",
+        "answer": "360"
+      },
+      {
+        "id": "MA04",
+        "prompt": "What is 17 * 23? Reply with ONLY the final integer.",
+        "answer": "391"
+      },
+      {
+        "id": "MA05",
+        "prompt": "A rectangle has perimeter 34 cm and width 5 cm. What is its area in square cm? Reply with ONLY the final integer.",
+        "answer": "60"
+      },
+      {
+        "id": "MA06",
+        "prompt": "Solve for x: 5x - 13 = 32. Reply with ONLY the final integer.",
+        "answer": "9"
+      },
+      {
+        "id": "MA07",
+        "prompt": "A jacket costs $120 and is discounted by 25%. What is the sale price in dollars? Reply with ONLY the final integer.",
+        "answer": "90"
+      },
+      {
+        "id": "MA08",
+        "prompt": "What is the sum of the first 15 positive integers (1 + 2 + ... + 15)? Reply with ONLY the final integer.",
+        "answer": "120"
+      },
+      {
+        "id": "MA09",
+        "prompt": "How many distinct permutations do the letters of the word 'CAT' have? Reply with ONLY the final integer.",
+        "answer": "6"
+      },
+      {
+        "id": "MA10",
+        "prompt": "A tank holds 240 liters and is 3/8 full. How many liters are currently in the tank? Reply with ONLY the final integer.",
+        "answer": "90"
+      },
+      {
+        "id": "MA11",
+        "prompt": "If f(x) = 2x^2 - 3x + 4, what is f(5)? Reply with ONLY the final integer.",
+        "answer": "39"
+      },
+      {
+        "id": "MA12",
+        "prompt": "Three consecutive integers sum to 72. What is the largest of the three integers? Reply with ONLY the final integer.",
+        "answer": "25"
+      },
+      {
+        "id": "MA13",
+        "prompt": "What is 2^10 - 24? Reply with ONLY the final integer.",
+        "answer": "1000"
+      },
+      {
+        "id": "MA14",
+        "prompt": "A baker packs 145 cookies into boxes of 12. How many cookies are left over after filling as many full boxes as possible? Reply with ONLY the final integer.",
+        "answer": "1"
+      },
+      {
+        "id": "MA15",
+        "prompt": "In a class of 32 students, 18 study French, 15 study Spanish, and 6 study both. How many study neither? Reply with ONLY the final integer.",
+        "answer": "5"
+      },
+      {
+        "id": "MA16",
+        "prompt": "What is the greatest prime factor of 84? Reply with ONLY the final integer.",
+        "answer": "7"
+      },
+      {
+        "id": "MA17",
+        "prompt": "A cyclist rides at 24 km/h for 45 minutes. How many kilometers does the cyclist travel? Reply with ONLY the final integer.",
+        "answer": "18"
+      },
+      {
+        "id": "MA18",
+        "prompt": "If a^2 - b^2 = 45 and a - b = 5, what is a + b? Reply with ONLY the final integer.",
+        "answer": "9"
+      },
+      {
+        "id": "MA19",
+        "prompt": "How many edges does a cube have? Reply with ONLY the final integer.",
+        "answer": "12"
+      },
+      {
+        "id": "MA20",
+        "prompt": "What is 15% of 260? Reply with ONLY the final integer.",
+        "answer": "39"
+      }
+    ]
+  }
+}
